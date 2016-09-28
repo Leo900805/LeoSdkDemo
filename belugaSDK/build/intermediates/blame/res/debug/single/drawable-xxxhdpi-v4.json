@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\powered_by_google_dark.png",
+        "source": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\google-play-services_lib\\unspecified\\res\\drawable-xxxhdpi-v4\\powered_by_google_dark.png"
+    },
+    {
+        "merged": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\places_ic_search.png",
+        "source": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\google-play-services_lib\\unspecified\\res\\drawable-xxxhdpi-v4\\places_ic_search.png"
+    },
+    {
+        "merged": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\places_ic_clear.png",
+        "source": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\google-play-services_lib\\unspecified\\res\\drawable-xxxhdpi-v4\\places_ic_clear.png"
+    },
+    {
+        "merged": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\powered_by_google_light.png",
+        "source": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\google-play-services_lib\\unspecified\\res\\drawable-xxxhdpi-v4\\powered_by_google_light.png"
+    }
+]
