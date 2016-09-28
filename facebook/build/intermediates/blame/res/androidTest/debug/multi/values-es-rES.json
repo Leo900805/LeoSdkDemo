@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\facebook\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-es-rES\\values-es-rES.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 61,
+                    "endOffset": 112
+                },
+                "from": {
+                    "file": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\facebook\\build\\intermediates\\bundles\\debug\\res\\values-es-rES\\values-es-rES.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 61,
+                        "endOffset": 112
+                    }
+                }
+            }
+        ]
+    }
+]
