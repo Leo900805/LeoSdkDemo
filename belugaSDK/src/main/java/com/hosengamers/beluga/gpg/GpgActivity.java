@@ -43,17 +43,6 @@ public class GpgActivity extends Activity
         super.onCreate(savedInstanceState);
         Log.d(TAG, "OnCreate...");
 
-        //logout first
-        Log.d(TAG, "Sign-out button clicked");
-        Log.d(TAG, "(mGoogleApiClient != null) :" + (mGoogleApiClient != null));
-        if (mGoogleApiClient != null){
-            Log.d(TAG, "onCreate in if.... ");
-            mSignInClicked = false;
-            Games.signOut(mGoogleApiClient);
-            mGoogleApiClient.disconnect();
-        }
-
-
         // Create the Google Api Client with access to Plus and Games
         mGoogleApiClient = new GoogleApiClient.Builder(this)
                 .addConnectionCallbacks(this)
@@ -64,8 +53,12 @@ public class GpgActivity extends Activity
 
     @Override
     protected void onStop() {
+        Log.d(TAG, "onStop...");
         super.onStop();
+        Log.d(TAG, "onStop...mGoogleApiClient.isConnected():"+mGoogleApiClient.isConnected());
         if (mGoogleApiClient.isConnected()) {
+            Log.d(TAG, "onStop...in if condition....");
+            Games.signOut(mGoogleApiClient);
             mGoogleApiClient.disconnect();
         }
     }

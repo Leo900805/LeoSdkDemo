@@ -12,12 +12,32 @@
         "source": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\src\\main\\res\\anim\\fab_label_anim.xml"
     },
     {
+        "merged": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\res\\merged\\release\\anim\\anim_selected_move_left_effect.xml",
+        "source": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\belugaSDK\\src\\main\\res\\anim\\anim_selected_move_left_effect.xml"
+    },
+    {
         "merged": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\res\\merged\\release\\anim\\anim_scale_hide2.xml",
         "source": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\src\\main\\res\\anim\\anim_scale_hide2.xml"
     },
     {
+        "merged": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\res\\merged\\release\\anim\\anim_rotae_hide.xml",
+        "source": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\belugaSDK\\src\\main\\res\\anim\\anim_rotae_hide.xml"
+    },
+    {
         "merged": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\res\\merged\\release\\anim\\anin_rotate_show.xml",
         "source": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\src\\main\\res\\anim\\anin_rotate_show.xml"
+    },
+    {
+        "merged": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\res\\merged\\release\\anim\\anim_translate_show.xml",
+        "source": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\belugaSDK\\src\\main\\res\\anim\\anim_translate_show.xml"
+    },
+    {
+        "merged": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\res\\merged\\release\\anim\\anim_selected_move_right_effect.xml",
+        "source": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\belugaSDK\\src\\main\\res\\anim\\anim_selected_move_right_effect.xml"
+    },
+    {
+        "merged": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\res\\merged\\release\\anim\\fab_label_anim.xml",
+        "source": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\belugaSDK\\src\\main\\res\\anim\\fab_label_anim.xml"
     },
     {
         "merged": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\res\\merged\\release\\anim\\anim_scale_show2.xml",
@@ -28,19 +48,43 @@
         "source": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\src\\main\\res\\anim\\anim_selected_move_left_effect.xml"
     },
     {
+        "merged": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\res\\merged\\release\\anim\\anim_scale__landscape_show.xml",
+        "source": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\belugaSDK\\src\\main\\res\\anim\\anim_scale__landscape_show.xml"
+    },
+    {
         "merged": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\res\\merged\\release\\anim\\anim_scale_hide.xml",
         "source": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\src\\main\\res\\anim\\anim_scale_hide.xml"
+    },
+    {
+        "merged": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\res\\merged\\release\\anim\\anim_scale_hide2.xml",
+        "source": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\belugaSDK\\src\\main\\res\\anim\\anim_scale_hide2.xml"
     },
     {
         "merged": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\res\\merged\\release\\anim\\anim_scale_show.xml",
         "source": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\src\\main\\res\\anim\\anim_scale_show.xml"
     },
     {
+        "merged": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\res\\merged\\release\\anim\\anin_rotate_show.xml",
+        "source": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\belugaSDK\\src\\main\\res\\anim\\anin_rotate_show.xml"
+    },
+    {
         "merged": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\res\\merged\\release\\anim\\anim_scale__landscape_show.xml",
         "source": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\src\\main\\res\\anim\\anim_scale__landscape_show.xml"
     },
     {
+        "merged": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\res\\merged\\release\\anim\\anim_scale_show.xml",
+        "source": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\belugaSDK\\src\\main\\res\\anim\\anim_scale_show.xml"
+    },
+    {
         "merged": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\res\\merged\\release\\anim\\anim_translate_show.xml",
         "source": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\src\\main\\res\\anim\\anim_translate_show.xml"
+    },
+    {
+        "merged": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\res\\merged\\release\\anim\\anim_scale_hide.xml",
+        "source": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\belugaSDK\\src\\main\\res\\anim\\anim_scale_hide.xml"
+    },
+    {
+        "merged": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\res\\merged\\release\\anim\\anim_scale_show2.xml",
+        "source": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\belugaSDK\\src\\main\\res\\anim\\anim_scale_show2.xml"
     }
 ]
