@@ -37,12 +37,23 @@ public class GpgActivity extends Activity
     // Set to false to require the user to click the button in order to sign in.
     private boolean mAutoStartSignInFlow = true;
 
-    int responeCode;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         Log.d(TAG, "OnCreate...");
+
+        //logout first
+        Log.d(TAG, "Sign-out button clicked");
+        Log.d(TAG, "(mGoogleApiClient != null) :" + (mGoogleApiClient != null));
+        if (mGoogleApiClient != null){
+            Log.d(TAG, "onCreate in if.... ");
+            mSignInClicked = false;
+            Games.signOut(mGoogleApiClient);
+            mGoogleApiClient.disconnect();
+        }
+
+
         // Create the Google Api Client with access to Plus and Games
         mGoogleApiClient = new GoogleApiClient.Builder(this)
                 .addConnectionCallbacks(this)
@@ -62,12 +73,13 @@ public class GpgActivity extends Activity
     @Override
     protected void onStart() {
         super.onStart();
+        Log.d(TAG, "onStart...");
         mGoogleApiClient.connect();
     }
 
     @Override
     public void onConnected(@Nullable Bundle bundle) {
-
+        Log.d(TAG, "onConnect...");
     }
 
     @Override
@@ -88,18 +100,18 @@ public class GpgActivity extends Activity
             if (responseCode == RESULT_OK) {
                 mGoogleApiClient.connect();
                 Log.d(TAG, "Success.");
+                Intent resultdata = new Intent();
+                Bundle bundle = new Bundle();
+                bundle.putString("type", "GPG");
+                resultdata.putExtras(bundle);
+                setResult(Activity.RESULT_OK, resultdata); //回傳RESULT_OK
+                finish();
             } else {
                 //BaseGameUtils.showActivityResultError(this,requestCode,responseCode, R.string.signin_other_error);
                 Log.d(TAG, "There was an issue with sign in. Please try again later.");
-                this.responeCode = responseCode;
             }
         }
-        Intent resultdata = new Intent();
-        Bundle bundle = new Bundle();
-        bundle.putString("type", "GPG");
-        resultdata.putExtras(bundle);
-        setResult(Activity.RESULT_OK, resultdata); //回傳RESULT_OK
-        finish();
+
     }
 
     @Override
@@ -112,10 +124,12 @@ public class GpgActivity extends Activity
         }
 
         if (mSignInClicked || mAutoStartSignInFlow) {
+            Log.d(TAG, "onConnectionFailed()  (mSignInClicked || mAutoStartSignInFlow): " +  (mSignInClicked || mAutoStartSignInFlow));
             mAutoStartSignInFlow = false;
             mSignInClicked = false;
             try {
-                connectionResult.startResolutionForResult(this, this.responeCode);
+                Log.d(TAG, "onConnectionFailed()  in  try" );
+                connectionResult.startResolutionForResult(this, RC_SIGN_IN);
             } catch (IntentSender.SendIntentException e) {
                 e.printStackTrace();
                 mGoogleApiClient.connect();

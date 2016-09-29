@@ -17,7 +17,7 @@
 
 <resources>
     <!-- Replace by your app ID -->
-    <string name="gpg_app_id">497121989574</string>
+    <string name="gpg_app_id">1039774857834</string>
 
     <!-- Replace by your "Trivial Victory" achievement ID -->
     <string name="achievement_trivial_victory">CgkIxqee9rsOEAIQAA</string>

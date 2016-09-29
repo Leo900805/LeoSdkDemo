@@ -178,6 +178,8 @@ public class FacebookInfoManager {
 				//send first request, the rest should be called by the callback
 				while (hasNextPage){
 					Log.i("access", ""+AccessToken.getCurrentAccessToken());
+					AccessToken accesstoken = AccessToken.getCurrentAccessToken();
+					Log.d("token:",accesstoken.getToken());
 					new GraphRequest(AccessToken.getCurrentAccessToken(),
 							"/me/friends",param, HttpMethod.GET, graphCallback).executeAndWait();
 				}

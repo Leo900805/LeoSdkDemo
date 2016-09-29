@@ -8,6 +8,8 @@ import android.content.pm.PackageManager.NameNotFoundException;
 import android.content.pm.Signature;
 import android.net.Uri;
 import android.os.Bundle;
+import android.provider.Settings;
+import android.support.annotation.Nullable;
 import android.util.Base64;
 import android.util.Log;
 import android.view.View;
@@ -17,9 +19,13 @@ import android.widget.TextView;
 import com.facebook.AccessToken;
 import com.facebook.FacebookSdk;
 import com.facebook.share.widget.LikeView;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdSize;
 import com.google.android.gms.appindexing.Action;
 import com.google.android.gms.appindexing.AppIndex;
 import com.google.android.gms.common.api.GoogleApiClient;
+import com.hosengamers.beluga.ads.Banner;
+import com.hosengamers.beluga.ads.BannerAdListener;
 import com.hosengamers.beluga.belugakeys.Keys;
 import com.hosengamers.beluga.gpg.GpgActivity;
 import com.hosengamers.beluga.invite.FacebookFriendsInviteActivity;
@@ -188,6 +194,46 @@ public class MainActivity extends Activity {
                 StartAuthClient();
             }
         });
+
+        BannerAdListener adListener = new BannerAdListener() {
+            @Override
+            public void onAdLoaded() {
+
+            }
+
+            @Override
+            public void onAdFailedToLoad(String paramString) {
+
+            }
+
+            @Override
+            public void onAdOpened() {
+
+            }
+
+            @Override
+            public void onAdClosed() {
+
+            }
+
+            @Override
+            public void onAdLeftApplication() {
+
+            }
+        };
+        Banner banner = new Banner(this, adListener);
+        AdSize adsize = new AdSize(300, 50);
+
+        int positon_bottom = 1;
+        banner.create("ca-app-pub-8757418816557505/7494005598", adsize, positon_bottom);
+        //banner for test...
+        AdRequest adRequest = new AdRequest.Builder()
+                .addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
+                .addTestDevice("2E8B2CCE503B3B15EE7E53F3C0E62CE4")
+                .build();
+
+        banner.loadAd(adRequest);
+        banner.show();
         // ATTENTION: This was auto-generated to implement the App Indexing API.
         // See https://g.co/AppIndexing/AndroidStudio for more information.
         client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
@@ -423,7 +469,7 @@ public class MainActivity extends Activity {
     }
 
     //MD5 encrypt
-    private static String MD5(String str) {
+    private String MD5(String str) {
         MessageDigest md5 = null;
         try {
             md5 = MessageDigest.getInstance("MD5");
@@ -474,4 +520,6 @@ public class MainActivity extends Activity {
         AppIndex.AppIndexApi.start(client, viewAction);
         */
     }
+
+
 }
