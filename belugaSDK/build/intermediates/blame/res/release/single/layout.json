@@ -12,6 +12,10 @@
         "source": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\facebook\\unspecified\\res\\layout\\messenger_button_send_blue_small.xml"
     },
     {
+        "merged": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\res\\merged\\release\\layout\\place_autocomplete_item_powered_by_google.xml",
+        "source": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\google-play-services_lib\\unspecified\\res\\layout\\place_autocomplete_item_powered_by_google.xml"
+    },
+    {
         "merged": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\res\\merged\\release\\layout\\service_layout.xml",
         "source": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\src\\main\\res\\layout\\service_layout.xml"
     },
@@ -40,6 +44,10 @@
         "source": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\src\\main\\res\\layout\\login_page_v2.xml"
     },
     {
+        "merged": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\res\\merged\\release\\layout\\place_autocomplete_progress.xml",
+        "source": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\google-play-services_lib\\unspecified\\res\\layout\\place_autocomplete_progress.xml"
+    },
+    {
         "merged": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\res\\merged\\release\\layout\\quick_sign_up_page_large_size.xml",
         "source": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\src\\main\\res\\layout\\quick_sign_up_page_large_size.xml"
     },
@@ -54,6 +62,10 @@
     {
         "merged": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\res\\merged\\release\\layout\\payment_layout.xml",
         "source": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\src\\main\\res\\layout\\payment_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\res\\merged\\release\\layout\\place_autocomplete_fragment.xml",
+        "source": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\google-play-services_lib\\unspecified\\res\\layout\\place_autocomplete_fragment.xml"
     },
     {
         "merged": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\res\\merged\\release\\layout\\right_point_frame.xml",
@@ -94,6 +106,10 @@
     {
         "merged": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\res\\merged\\release\\layout\\modify_pwd_page_v2.xml",
         "source": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\src\\main\\res\\layout\\modify_pwd_page_v2.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\res\\merged\\release\\layout\\place_autocomplete_item_prediction.xml",
+        "source": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\google-play-services_lib\\unspecified\\res\\layout\\place_autocomplete_item_prediction.xml"
     },
     {
         "merged": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\res\\merged\\release\\layout\\service_bar_layout.xml",

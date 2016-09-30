@@ -27,6 +27,7 @@ import com.google.android.gms.common.api.GoogleApiClient;
 import com.hosengamers.beluga.ads.Banner;
 import com.hosengamers.beluga.ads.BannerAdListener;
 import com.hosengamers.beluga.belugakeys.Keys;
+import com.hosengamers.beluga.gpg.GPGService;
 import com.hosengamers.beluga.gpg.GpgActivity;
 import com.hosengamers.beluga.invite.FacebookFriendsInviteActivity;
 import com.hosengamers.beluga.loginpage.AuthClientActivity;
@@ -67,6 +68,7 @@ public class MainActivity extends Activity {
     public final static int REQUEST_CODE = -1010101; /*(see edit II)*/
     Bundle b;
 
+    GPGService gpgService;
     /**
      * ATTENTION: This was auto-generated to implement the App Indexing API.
      * See https://g.co/AppIndexing/AndroidStudio for more information.
@@ -149,6 +151,10 @@ public class MainActivity extends Activity {
                 ex.printStackTrace();
             }
 
+        }else if(requestCode == 9001){
+
+            gpgService.onResult(requestCode, resultCode, data);
+            Log.d("Activity", "Success.");
         }
         Log.i("Main Demo", "onActivityResult end...");
     }
@@ -347,34 +353,6 @@ public class MainActivity extends Activity {
         startActivity(i);
     }
 
-    @Override
-    protected void onStop() {
-        // TODO Auto-generated method stub
-        super.onStop();
-        /*
-        // ATTENTION: This was auto-generated to implement the App Indexing API.
-        // See https://g.co/AppIndexing/AndroidStudio for more information.
-        Action viewAction = Action.newAction(
-                Action.TYPE_VIEW, // TODO: choose an action type.
-                "Main Page", // TODO: Define a title for the content shown.
-                // TODO: If you have web page content that matches this app activity's content,
-                // make sure this auto-generated web page URL is correct.
-                // Otherwise, set the URL to null.
-                Uri.parse("http://host/path"),
-                // TODO: Make sure this auto-generated app URL is correct.
-                Uri.parse("android-app://beluga.com.belugademov3/http/host/path")
-        );
-        AppIndex.AppIndexApi.end(client, viewAction);
-        */
-        /*
-                if(serviceIntent != null){
-			stopService(serviceIntent);
-		}
-		*/
-        // ATTENTION: This was auto-generated to implement the App Indexing API.
-        // See https://g.co/AppIndexing/AndroidStudio for more information.
-        client.disconnect();
-    }
 
     public void stopService(View v) {
         if (serviceIntent != null) {
@@ -420,8 +398,12 @@ public class MainActivity extends Activity {
 
     public void gpg(View view){
         Log.i("main act", "GPG start...");
+        /*
         Intent intent = new Intent(this, GpgActivity.class);
         startActivityForResult(intent, 100);
+             */
+        gpgService = new GPGService(this);
+        gpgService.Create();
 
     }
 
@@ -496,30 +478,5 @@ public class MainActivity extends Activity {
         }
         return hexValue.toString();
     }
-
-
-    @Override
-    public void onStart() {
-        super.onStart();
-
-        // ATTENTION: This was auto-generated to implement the App Indexing API.
-        // See https://g.co/AppIndexing/AndroidStudio for more information.
-        client.connect();
-        /*
-        Action viewAction = Action.newAction(
-                Action.TYPE_VIEW, // TODO: choose an action type.
-                "Main Page", // TODO: Define a title for the content shown.
-                // TODO: If you have web page content that matches this app activity's content,
-                // make sure this auto-generated web page URL is correct.
-                // Otherwise, set the URL to null.
-                Uri.parse("http://host/path"),
-                // TODO: Make sure this auto-generated app URL is correct.
-                Uri.parse("android-app://beluga.com.belugademov3/http/host/path")
-        );
-
-        AppIndex.AppIndexApi.start(client, viewAction);
-        */
-    }
-
 
 }
