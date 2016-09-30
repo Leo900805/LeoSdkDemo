@@ -41,9 +41,9 @@ public class GPGService {
     public void Create(){
         // Create the Google Api Client with access to Plus and Games
 
-        mGoogleApiClient = new GoogleApiClient.Builder(this.activity)
-                .addConnectionCallbacks(this.connectionCallbacks)
-                .addOnConnectionFailedListener(this.onConnectionFailedListener)
+        mGoogleApiClient = new GoogleApiClient.Builder(GPGService.this.activity)
+                .addConnectionCallbacks(GPGService.this.connectionCallbacks)
+                .addOnConnectionFailedListener(GPGService.this.onConnectionFailedListener)
                 .addApi(Games.API).addScope(Games.SCOPE_GAMES)
                 .build();
 

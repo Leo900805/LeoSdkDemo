@@ -93,12 +93,14 @@ public class GpgActivity extends Activity
             if (responseCode == RESULT_OK) {
                 mGoogleApiClient.connect();
                 Log.d(TAG, "Success.");
+                /*
                 Intent resultdata = new Intent();
                 Bundle bundle = new Bundle();
                 bundle.putString("type", "GPG");
                 resultdata.putExtras(bundle);
                 setResult(Activity.RESULT_OK, resultdata); //回傳RESULT_OK
                 finish();
+                */
             } else {
                 //BaseGameUtils.showActivityResultError(this,requestCode,responseCode, R.string.signin_other_error);
                 Log.d(TAG, "There was an issue with sign in. Please try again later.");

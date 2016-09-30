@@ -1,618 +1,5 @@
 [
     {
-        "outputFile": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-lt\\values-lt.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 105,
-                    "endColumn": 288,
-                    "endOffset": 389
-                },
-                "from": {
-                    "file": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\google-play-services_lib\\unspecified\\res\\values-lt\\values-lt.xml",
-                    "position": {
-                        "startLine": 2,
-                        "startColumn": 4,
-                        "startOffset": 105,
-                        "endColumn": 288,
-                        "endOffset": 389
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 3,
-                    "startColumn": 4,
-                    "startOffset": 394,
-                    "endColumn": 132,
-                    "endOffset": 522
-                },
-                "from": {
-                    "file": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\google-play-services_lib\\unspecified\\res\\values-lt\\values-lt.xml",
-                    "position": {
-                        "startLine": 3,
-                        "startColumn": 4,
-                        "startOffset": 394,
-                        "endColumn": 132,
-                        "endOffset": 522
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 4,
-                    "startColumn": 4,
-                    "startOffset": 527,
-                    "endColumn": 183,
-                    "endOffset": 706
-                },
-                "from": {
-                    "file": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\google-play-services_lib\\unspecified\\res\\values-lt\\values-lt.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 527,
-                        "endColumn": 183,
-                        "endOffset": 706
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 5,
-                    "startColumn": 4,
-                    "startOffset": 711,
-                    "endColumn": 133,
-                    "endOffset": 840
-                },
-                "from": {
-                    "file": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\google-play-services_lib\\unspecified\\res\\values-lt\\values-lt.xml",
-                    "position": {
-                        "startLine": 5,
-                        "startColumn": 4,
-                        "startOffset": 711,
-                        "endColumn": 133,
-                        "endOffset": 840
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 6,
-                    "startColumn": 4,
-                    "startOffset": 845,
-                    "endColumn": 130,
-                    "endOffset": 971
-                },
-                "from": {
-                    "file": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\google-play-services_lib\\unspecified\\res\\values-lt\\values-lt.xml",
-                    "position": {
-                        "startLine": 6,
-                        "startColumn": 4,
-                        "startOffset": 845,
-                        "endColumn": 130,
-                        "endOffset": 971
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 7,
-                    "startColumn": 4,
-                    "startOffset": 976,
-                    "endColumn": 206,
-                    "endOffset": 1178
-                },
-                "from": {
-                    "file": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\google-play-services_lib\\unspecified\\res\\values-lt\\values-lt.xml",
-                    "position": {
-                        "startLine": 7,
-                        "startColumn": 4,
-                        "startOffset": 976,
-                        "endColumn": 206,
-                        "endOffset": 1178
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 8,
-                    "startColumn": 4,
-                    "startOffset": 1183,
-                    "endColumn": 225,
-                    "endOffset": 1404
-                },
-                "from": {
-                    "file": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\google-play-services_lib\\unspecified\\res\\values-lt\\values-lt.xml",
-                    "position": {
-                        "startLine": 8,
-                        "startColumn": 4,
-                        "startOffset": 1183,
-                        "endColumn": 225,
-                        "endOffset": 1404
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 9,
-                    "startColumn": 4,
-                    "startOffset": 1409,
-                    "endColumn": 131,
-                    "endOffset": 1536
-                },
-                "from": {
-                    "file": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\google-play-services_lib\\unspecified\\res\\values-lt\\values-lt.xml",
-                    "position": {
-                        "startLine": 9,
-                        "startColumn": 4,
-                        "startOffset": 1409,
-                        "endColumn": 131,
-                        "endOffset": 1536
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 10,
-                    "startColumn": 4,
-                    "startOffset": 1541,
-                    "endColumn": 174,
-                    "endOffset": 1711
-                },
-                "from": {
-                    "file": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\google-play-services_lib\\unspecified\\res\\values-lt\\values-lt.xml",
-                    "position": {
-                        "startLine": 10,
-                        "startColumn": 4,
-                        "startOffset": 1541,
-                        "endColumn": 174,
-                        "endOffset": 1711
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 11,
-                    "startColumn": 4,
-                    "startOffset": 1716,
-                    "endColumn": 122,
-                    "endOffset": 1834
-                },
-                "from": {
-                    "file": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\google-play-services_lib\\unspecified\\res\\values-lt\\values-lt.xml",
-                    "position": {
-                        "startLine": 11,
-                        "startColumn": 4,
-                        "startOffset": 1716,
-                        "endColumn": 122,
-                        "endOffset": 1834
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 12,
-                    "startColumn": 4,
-                    "startOffset": 1839,
-                    "endColumn": 188,
-                    "endOffset": 2023
-                },
-                "from": {
-                    "file": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\google-play-services_lib\\unspecified\\res\\values-lt\\values-lt.xml",
-                    "position": {
-                        "startLine": 12,
-                        "startColumn": 4,
-                        "startOffset": 1839,
-                        "endColumn": 188,
-                        "endOffset": 2023
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 13,
-                    "startColumn": 4,
-                    "startOffset": 2028,
-                    "endColumn": 119,
-                    "endOffset": 2143
-                },
-                "from": {
-                    "file": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\google-play-services_lib\\unspecified\\res\\values-lt\\values-lt.xml",
-                    "position": {
-                        "startLine": 13,
-                        "startColumn": 4,
-                        "startOffset": 2028,
-                        "endColumn": 119,
-                        "endOffset": 2143
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 14,
-                    "startColumn": 4,
-                    "startOffset": 2148,
-                    "endColumn": 135,
-                    "endOffset": 2279
-                },
-                "from": {
-                    "file": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\google-play-services_lib\\unspecified\\res\\values-lt\\values-lt.xml",
-                    "position": {
-                        "startLine": 14,
-                        "startColumn": 4,
-                        "startOffset": 2148,
-                        "endColumn": 135,
-                        "endOffset": 2279
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 15,
-                    "startColumn": 4,
-                    "startOffset": 2284,
-                    "endColumn": 168,
-                    "endOffset": 2448
-                },
-                "from": {
-                    "file": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\google-play-services_lib\\unspecified\\res\\values-lt\\values-lt.xml",
-                    "position": {
-                        "startLine": 15,
-                        "startColumn": 4,
-                        "startOffset": 2284,
-                        "endColumn": 168,
-                        "endOffset": 2448
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 16,
-                    "startColumn": 4,
-                    "startOffset": 2453,
-                    "endColumn": 127,
-                    "endOffset": 2576
-                },
-                "from": {
-                    "file": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\google-play-services_lib\\unspecified\\res\\values-lt\\values-lt.xml",
-                    "position": {
-                        "startLine": 16,
-                        "startColumn": 4,
-                        "startOffset": 2453,
-                        "endColumn": 127,
-                        "endOffset": 2576
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 17,
-                    "startColumn": 4,
-                    "startOffset": 2581,
-                    "endColumn": 175,
-                    "endOffset": 2752
-                },
-                "from": {
-                    "file": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\google-play-services_lib\\unspecified\\res\\values-lt\\values-lt.xml",
-                    "position": {
-                        "startLine": 17,
-                        "startColumn": 4,
-                        "startOffset": 2581,
-                        "endColumn": 175,
-                        "endOffset": 2752
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 18,
-                    "startColumn": 4,
-                    "startOffset": 2757,
-                    "endColumn": 127,
-                    "endOffset": 2880
-                },
-                "from": {
-                    "file": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\google-play-services_lib\\unspecified\\res\\values-lt\\values-lt.xml",
-                    "position": {
-                        "startLine": 18,
-                        "startColumn": 4,
-                        "startOffset": 2757,
-                        "endColumn": 127,
-                        "endOffset": 2880
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 19,
-                    "startColumn": 4,
-                    "startOffset": 2885,
-                    "endColumn": 273,
-                    "endOffset": 3154
-                },
-                "from": {
-                    "file": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\google-play-services_lib\\unspecified\\res\\values-lt\\values-lt.xml",
-                    "position": {
-                        "startLine": 19,
-                        "startColumn": 4,
-                        "startOffset": 2885,
-                        "endColumn": 273,
-                        "endOffset": 3154
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 20,
-                    "startColumn": 4,
-                    "startOffset": 3159,
-                    "endColumn": 277,
-                    "endOffset": 3432
-                },
-                "from": {
-                    "file": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\google-play-services_lib\\unspecified\\res\\values-lt\\values-lt.xml",
-                    "position": {
-                        "startLine": 20,
-                        "startColumn": 4,
-                        "startOffset": 3159,
-                        "endColumn": 277,
-                        "endOffset": 3432
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 21,
-                    "startColumn": 4,
-                    "startOffset": 3437,
-                    "endColumn": 126,
-                    "endOffset": 3559
-                },
-                "from": {
-                    "file": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\google-play-services_lib\\unspecified\\res\\values-lt\\values-lt.xml",
-                    "position": {
-                        "startLine": 21,
-                        "startColumn": 4,
-                        "startOffset": 3437,
-                        "endColumn": 126,
-                        "endOffset": 3559
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 22,
-                    "startColumn": 4,
-                    "startOffset": 3564,
-                    "endColumn": 110,
-                    "endOffset": 3670
-                },
-                "from": {
-                    "file": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\google-play-services_lib\\unspecified\\res\\values-lt\\values-lt.xml",
-                    "position": {
-                        "startLine": 22,
-                        "startColumn": 4,
-                        "startOffset": 3564,
-                        "endColumn": 110,
-                        "endOffset": 3670
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 23,
-                    "startColumn": 4,
-                    "startOffset": 3675,
-                    "endColumn": 195,
-                    "endOffset": 3866
-                },
-                "from": {
-                    "file": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\google-play-services_lib\\unspecified\\res\\values-lt\\values-lt.xml",
-                    "position": {
-                        "startLine": 23,
-                        "startColumn": 4,
-                        "startOffset": 3675,
-                        "endColumn": 195,
-                        "endOffset": 3866
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 24,
-                    "startColumn": 4,
-                    "startOffset": 3871,
-                    "endColumn": 135,
-                    "endOffset": 4002
-                },
-                "from": {
-                    "file": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\google-play-services_lib\\unspecified\\res\\values-lt\\values-lt.xml",
-                    "position": {
-                        "startLine": 24,
-                        "startColumn": 4,
-                        "startOffset": 3871,
-                        "endColumn": 135,
-                        "endOffset": 4002
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 25,
-                    "startColumn": 4,
-                    "startOffset": 4007,
-                    "endColumn": 211,
-                    "endOffset": 4214
-                },
-                "from": {
-                    "file": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\google-play-services_lib\\unspecified\\res\\values-lt\\values-lt.xml",
-                    "position": {
-                        "startLine": 25,
-                        "startColumn": 4,
-                        "startOffset": 4007,
-                        "endColumn": 211,
-                        "endOffset": 4214
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 26,
-                    "startColumn": 4,
-                    "startOffset": 4219,
-                    "endColumn": 137,
-                    "endOffset": 4352
-                },
-                "from": {
-                    "file": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\google-play-services_lib\\unspecified\\res\\values-lt\\values-lt.xml",
-                    "position": {
-                        "startLine": 26,
-                        "startColumn": 4,
-                        "startOffset": 4219,
-                        "endColumn": 137,
-                        "endOffset": 4352
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 27,
-                    "startColumn": 4,
-                    "startOffset": 4357,
-                    "endColumn": 179,
-                    "endOffset": 4532
-                },
-                "from": {
-                    "file": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\google-play-services_lib\\unspecified\\res\\values-lt\\values-lt.xml",
-                    "position": {
-                        "startLine": 27,
-                        "startColumn": 4,
-                        "startOffset": 4357,
-                        "endColumn": 179,
-                        "endOffset": 4532
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 28,
-                    "startColumn": 4,
-                    "startOffset": 4537,
-                    "endColumn": 96,
-                    "endOffset": 4629
-                },
-                "from": {
-                    "file": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\google-play-services_lib\\unspecified\\res\\values-lt\\values-lt.xml",
-                    "position": {
-                        "startLine": 28,
-                        "startColumn": 4,
-                        "startOffset": 4537,
-                        "endColumn": 96,
-                        "endOffset": 4629
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 29,
-                    "startColumn": 4,
-                    "startOffset": 4634,
-                    "endColumn": 95,
-                    "endOffset": 4725
-                },
-                "from": {
-                    "file": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\google-play-services_lib\\unspecified\\res\\values-lt\\values-lt.xml",
-                    "position": {
-                        "startLine": 29,
-                        "startColumn": 4,
-                        "startOffset": 4634,
-                        "endColumn": 95,
-                        "endOffset": 4725
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 30,
-                    "startColumn": 4,
-                    "startOffset": 4730,
-                    "endColumn": 119,
-                    "endOffset": 4845
-                },
-                "from": {
-                    "file": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\google-play-services_lib\\unspecified\\res\\values-lt\\values-lt.xml",
-                    "position": {
-                        "startLine": 30,
-                        "startColumn": 4,
-                        "startOffset": 4730,
-                        "endColumn": 119,
-                        "endOffset": 4845
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 31,
-                    "startColumn": 4,
-                    "startOffset": 4850,
-                    "endColumn": 106,
-                    "endOffset": 4952
-                },
-                "from": {
-                    "file": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\google-play-services_lib\\unspecified\\res\\values-lt\\values-lt.xml",
-                    "position": {
-                        "startLine": 31,
-                        "startColumn": 4,
-                        "startOffset": 4850,
-                        "endColumn": 106,
-                        "endOffset": 4952
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 32,
-                    "startColumn": 4,
-                    "startOffset": 4957,
-                    "endColumn": 96,
-                    "endOffset": 5049
-                },
-                "from": {
-                    "file": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\google-play-services_lib\\unspecified\\res\\values-lt\\values-lt.xml",
-                    "position": {
-                        "startLine": 32,
-                        "startColumn": 4,
-                        "startOffset": 4957,
-                        "endColumn": 96,
-                        "endOffset": 5049
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 33,
-                    "startColumn": 4,
-                    "startOffset": 5054,
-                    "endColumn": 114,
-                    "endOffset": 5164
-                },
-                "from": {
-                    "file": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\google-play-services_lib\\unspecified\\res\\values-lt\\values-lt.xml",
-                    "position": {
-                        "startLine": 33,
-                        "startColumn": 4,
-                        "startOffset": 5054,
-                        "endColumn": 114,
-                        "endOffset": 5164
-                    }
-                }
-            }
-        ]
-    },
-    {
         "outputFile": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-lt\\values-lt.xml",
         "map": [
             {
@@ -620,17 +7,17 @@
                     "startLine": 2,
                     "startColumn": 4,
                     "startOffset": 105,
-                    "endColumn": 288,
-                    "endOffset": 389
+                    "endColumn": 108,
+                    "endOffset": 209
                 },
                 "from": {
-                    "file": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\google-play-services_lib\\unspecified\\res\\values-lt\\values-lt.xml",
+                    "file": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.0\\res\\values-lt\\values.xml",
                     "position": {
-                        "startLine": 2,
+                        "startLine": 4,
                         "startColumn": 4,
-                        "startOffset": 105,
-                        "endColumn": 288,
-                        "endOffset": 389
+                        "startOffset": 340,
+                        "endColumn": 108,
+                        "endOffset": 444
                     }
                 }
             },
@@ -638,18 +25,18 @@
                 "to": {
                     "startLine": 3,
                     "startColumn": 4,
-                    "startOffset": 394,
-                    "endColumn": 132,
-                    "endOffset": 522
+                    "startOffset": 214,
+                    "endColumn": 183,
+                    "endOffset": 393
                 },
                 "from": {
-                    "file": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\google-play-services_lib\\unspecified\\res\\values-lt\\values-lt.xml",
+                    "file": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.0\\res\\values-lt\\values.xml",
                     "position": {
-                        "startLine": 3,
+                        "startLine": 5,
                         "startColumn": 4,
-                        "startOffset": 394,
-                        "endColumn": 132,
-                        "endOffset": 522
+                        "startOffset": 449,
+                        "endColumn": 183,
+                        "endOffset": 628
                     }
                 }
             },
@@ -657,18 +44,18 @@
                 "to": {
                     "startLine": 4,
                     "startColumn": 4,
-                    "startOffset": 527,
-                    "endColumn": 183,
-                    "endOffset": 706
+                    "startOffset": 398,
+                    "endColumn": 133,
+                    "endOffset": 527
                 },
                 "from": {
-                    "file": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\google-play-services_lib\\unspecified\\res\\values-lt\\values-lt.xml",
+                    "file": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.0\\res\\values-lt\\values.xml",
                     "position": {
-                        "startLine": 4,
+                        "startLine": 6,
                         "startColumn": 4,
-                        "startOffset": 527,
-                        "endColumn": 183,
-                        "endOffset": 706
+                        "startOffset": 633,
+                        "endColumn": 133,
+                        "endOffset": 762
                     }
                 }
             },
@@ -676,18 +63,18 @@
                 "to": {
                     "startLine": 5,
                     "startColumn": 4,
-                    "startOffset": 711,
-                    "endColumn": 133,
-                    "endOffset": 840
+                    "startOffset": 532,
+                    "endColumn": 108,
+                    "endOffset": 636
                 },
                 "from": {
-                    "file": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\google-play-services_lib\\unspecified\\res\\values-lt\\values-lt.xml",
+                    "file": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.0\\res\\values-lt\\values.xml",
                     "position": {
-                        "startLine": 5,
+                        "startLine": 7,
                         "startColumn": 4,
-                        "startOffset": 711,
-                        "endColumn": 133,
-                        "endOffset": 840
+                        "startOffset": 767,
+                        "endColumn": 108,
+                        "endOffset": 871
                     }
                 }
             },
@@ -695,18 +82,18 @@
                 "to": {
                     "startLine": 6,
                     "startColumn": 4,
-                    "startOffset": 845,
-                    "endColumn": 130,
-                    "endOffset": 971
+                    "startOffset": 641,
+                    "endColumn": 206,
+                    "endOffset": 843
                 },
                 "from": {
-                    "file": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\google-play-services_lib\\unspecified\\res\\values-lt\\values-lt.xml",
+                    "file": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.0\\res\\values-lt\\values.xml",
                     "position": {
-                        "startLine": 6,
+                        "startLine": 8,
                         "startColumn": 4,
-                        "startOffset": 845,
-                        "endColumn": 130,
-                        "endOffset": 971
+                        "startOffset": 876,
+                        "endColumn": 206,
+                        "endOffset": 1078
                     }
                 }
             },
@@ -714,18 +101,18 @@
                 "to": {
                     "startLine": 7,
                     "startColumn": 4,
-                    "startOffset": 976,
-                    "endColumn": 206,
-                    "endOffset": 1178
+                    "startOffset": 848,
+                    "endColumn": 225,
+                    "endOffset": 1069
                 },
                 "from": {
-                    "file": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\google-play-services_lib\\unspecified\\res\\values-lt\\values-lt.xml",
+                    "file": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.0\\res\\values-lt\\values.xml",
                     "position": {
-                        "startLine": 7,
+                        "startLine": 9,
                         "startColumn": 4,
-                        "startOffset": 976,
-                        "endColumn": 206,
-                        "endOffset": 1178
+                        "startOffset": 1083,
+                        "endColumn": 225,
+                        "endOffset": 1304
                     }
                 }
             },
@@ -733,18 +120,18 @@
                 "to": {
                     "startLine": 8,
                     "startColumn": 4,
-                    "startOffset": 1183,
-                    "endColumn": 225,
-                    "endOffset": 1404
+                    "startOffset": 1074,
+                    "endColumn": 131,
+                    "endOffset": 1201
                 },
                 "from": {
-                    "file": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\google-play-services_lib\\unspecified\\res\\values-lt\\values-lt.xml",
+                    "file": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.0\\res\\values-lt\\values.xml",
                     "position": {
-                        "startLine": 8,
+                        "startLine": 10,
                         "startColumn": 4,
-                        "startOffset": 1183,
-                        "endColumn": 225,
-                        "endOffset": 1404
+                        "startOffset": 1309,
+                        "endColumn": 131,
+                        "endOffset": 1436
                     }
                 }
             },
@@ -752,18 +139,18 @@
                 "to": {
                     "startLine": 9,
                     "startColumn": 4,
-                    "startOffset": 1409,
-                    "endColumn": 131,
-                    "endOffset": 1536
+                    "startOffset": 1206,
+                    "endColumn": 134,
+                    "endOffset": 1336
                 },
                 "from": {
-                    "file": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\google-play-services_lib\\unspecified\\res\\values-lt\\values-lt.xml",
+                    "file": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.0\\res\\values-lt\\values.xml",
                     "position": {
-                        "startLine": 9,
+                        "startLine": 11,
                         "startColumn": 4,
-                        "startOffset": 1409,
-                        "endColumn": 131,
-                        "endOffset": 1536
+                        "startOffset": 1441,
+                        "endColumn": 134,
+                        "endOffset": 1571
                     }
                 }
             },
@@ -771,18 +158,18 @@
                 "to": {
                     "startLine": 10,
                     "startColumn": 4,
-                    "startOffset": 1541,
-                    "endColumn": 174,
-                    "endOffset": 1711
+                    "startOffset": 1341,
+                    "endColumn": 273,
+                    "endOffset": 1610
                 },
                 "from": {
-                    "file": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\google-play-services_lib\\unspecified\\res\\values-lt\\values-lt.xml",
+                    "file": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\9.6.0\\res\\values-lt\\values.xml",
                     "position": {
-                        "startLine": 10,
+                        "startLine": 4,
                         "startColumn": 4,
-                        "startOffset": 1541,
-                        "endColumn": 174,
-                        "endOffset": 1711
+                        "startOffset": 343,
+                        "endColumn": 273,
+                        "endOffset": 612
                     }
                 }
             },
@@ -790,18 +177,18 @@
                 "to": {
                     "startLine": 11,
                     "startColumn": 4,
-                    "startOffset": 1716,
-                    "endColumn": 122,
-                    "endOffset": 1834
+                    "startOffset": 1615,
+                    "endColumn": 277,
+                    "endOffset": 1888
                 },
                 "from": {
-                    "file": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\google-play-services_lib\\unspecified\\res\\values-lt\\values-lt.xml",
+                    "file": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.0\\res\\values-lt\\values.xml",
                     "position": {
-                        "startLine": 11,
+                        "startLine": 12,
                         "startColumn": 4,
-                        "startOffset": 1716,
-                        "endColumn": 122,
-                        "endOffset": 1834
+                        "startOffset": 1576,
+                        "endColumn": 277,
+                        "endOffset": 1849
                     }
                 }
             },
@@ -809,18 +196,18 @@
                 "to": {
                     "startLine": 12,
                     "startColumn": 4,
-                    "startOffset": 1839,
-                    "endColumn": 188,
-                    "endOffset": 2023
+                    "startOffset": 1893,
+                    "endColumn": 126,
+                    "endOffset": 2015
                 },
                 "from": {
-                    "file": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\google-play-services_lib\\unspecified\\res\\values-lt\\values-lt.xml",
+                    "file": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.0\\res\\values-lt\\values.xml",
                     "position": {
-                        "startLine": 12,
+                        "startLine": 13,
                         "startColumn": 4,
-                        "startOffset": 1839,
-                        "endColumn": 188,
-                        "endOffset": 2023
+                        "startOffset": 1854,
+                        "endColumn": 126,
+                        "endOffset": 1976
                     }
                 }
             },
@@ -828,18 +215,18 @@
                 "to": {
                     "startLine": 13,
                     "startColumn": 4,
-                    "startOffset": 2028,
-                    "endColumn": 119,
-                    "endOffset": 2143
+                    "startOffset": 2020,
+                    "endColumn": 110,
+                    "endOffset": 2126
                 },
                 "from": {
-                    "file": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\google-play-services_lib\\unspecified\\res\\values-lt\\values-lt.xml",
+                    "file": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.0\\res\\values-lt\\values.xml",
                     "position": {
-                        "startLine": 13,
+                        "startLine": 14,
                         "startColumn": 4,
-                        "startOffset": 2028,
-                        "endColumn": 119,
-                        "endOffset": 2143
+                        "startOffset": 1981,
+                        "endColumn": 110,
+                        "endOffset": 2087
                     }
                 }
             },
@@ -847,18 +234,18 @@
                 "to": {
                     "startLine": 14,
                     "startColumn": 4,
-                    "startOffset": 2148,
-                    "endColumn": 135,
-                    "endOffset": 2279
+                    "startOffset": 2131,
+                    "endColumn": 195,
+                    "endOffset": 2322
                 },
                 "from": {
-                    "file": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\google-play-services_lib\\unspecified\\res\\values-lt\\values-lt.xml",
+                    "file": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.0\\res\\values-lt\\values.xml",
                     "position": {
-                        "startLine": 14,
+                        "startLine": 15,
                         "startColumn": 4,
-                        "startOffset": 2148,
-                        "endColumn": 135,
-                        "endOffset": 2279
+                        "startOffset": 2092,
+                        "endColumn": 195,
+                        "endOffset": 2283
                     }
                 }
             },
@@ -866,18 +253,18 @@
                 "to": {
                     "startLine": 15,
                     "startColumn": 4,
-                    "startOffset": 2284,
-                    "endColumn": 168,
-                    "endOffset": 2448
+                    "startOffset": 2327,
+                    "endColumn": 135,
+                    "endOffset": 2458
                 },
                 "from": {
-                    "file": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\google-play-services_lib\\unspecified\\res\\values-lt\\values-lt.xml",
+                    "file": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.0\\res\\values-lt\\values.xml",
                     "position": {
-                        "startLine": 15,
+                        "startLine": 16,
                         "startColumn": 4,
-                        "startOffset": 2284,
-                        "endColumn": 168,
-                        "endOffset": 2448
+                        "startOffset": 2288,
+                        "endColumn": 135,
+                        "endOffset": 2419
                     }
                 }
             },
@@ -885,18 +272,18 @@
                 "to": {
                     "startLine": 16,
                     "startColumn": 4,
-                    "startOffset": 2453,
-                    "endColumn": 127,
-                    "endOffset": 2576
+                    "startOffset": 2463,
+                    "endColumn": 211,
+                    "endOffset": 2670
                 },
                 "from": {
-                    "file": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\google-play-services_lib\\unspecified\\res\\values-lt\\values-lt.xml",
+                    "file": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.0\\res\\values-lt\\values.xml",
                     "position": {
-                        "startLine": 16,
+                        "startLine": 17,
                         "startColumn": 4,
-                        "startOffset": 2453,
-                        "endColumn": 127,
-                        "endOffset": 2576
+                        "startOffset": 2424,
+                        "endColumn": 211,
+                        "endOffset": 2631
                     }
                 }
             },
@@ -904,18 +291,18 @@
                 "to": {
                     "startLine": 17,
                     "startColumn": 4,
-                    "startOffset": 2581,
-                    "endColumn": 175,
-                    "endOffset": 2752
+                    "startOffset": 2675,
+                    "endColumn": 137,
+                    "endOffset": 2808
                 },
                 "from": {
-                    "file": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\google-play-services_lib\\unspecified\\res\\values-lt\\values-lt.xml",
+                    "file": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.0\\res\\values-lt\\values.xml",
                     "position": {
-                        "startLine": 17,
+                        "startLine": 18,
                         "startColumn": 4,
-                        "startOffset": 2581,
-                        "endColumn": 175,
-                        "endOffset": 2752
+                        "startOffset": 2636,
+                        "endColumn": 137,
+                        "endOffset": 2769
                     }
                 }
             },
@@ -923,18 +310,18 @@
                 "to": {
                     "startLine": 18,
                     "startColumn": 4,
-                    "startOffset": 2757,
-                    "endColumn": 127,
-                    "endOffset": 2880
+                    "startOffset": 2813,
+                    "endColumn": 179,
+                    "endOffset": 2988
                 },
                 "from": {
-                    "file": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\google-play-services_lib\\unspecified\\res\\values-lt\\values-lt.xml",
+                    "file": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.0\\res\\values-lt\\values.xml",
                     "position": {
-                        "startLine": 18,
+                        "startLine": 19,
                         "startColumn": 4,
-                        "startOffset": 2757,
-                        "endColumn": 127,
-                        "endOffset": 2880
+                        "startOffset": 2774,
+                        "endColumn": 179,
+                        "endOffset": 2949
                     }
                 }
             },
@@ -942,18 +329,18 @@
                 "to": {
                     "startLine": 19,
                     "startColumn": 4,
-                    "startOffset": 2885,
-                    "endColumn": 273,
-                    "endOffset": 3154
+                    "startOffset": 2993,
+                    "endColumn": 97,
+                    "endOffset": 3086
                 },
                 "from": {
-                    "file": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\google-play-services_lib\\unspecified\\res\\values-lt\\values-lt.xml",
+                    "file": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.0\\res\\values-lt\\values.xml",
                     "position": {
-                        "startLine": 19,
+                        "startLine": 20,
                         "startColumn": 4,
-                        "startOffset": 2885,
-                        "endColumn": 273,
-                        "endOffset": 3154
+                        "startOffset": 2954,
+                        "endColumn": 97,
+                        "endOffset": 3047
                     }
                 }
             },
@@ -961,18 +348,18 @@
                 "to": {
                     "startLine": 20,
                     "startColumn": 4,
-                    "startOffset": 3159,
-                    "endColumn": 277,
-                    "endOffset": 3432
+                    "startOffset": 3091,
+                    "endColumn": 95,
+                    "endOffset": 3182
                 },
                 "from": {
-                    "file": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\google-play-services_lib\\unspecified\\res\\values-lt\\values-lt.xml",
+                    "file": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.0\\res\\values-lt\\values.xml",
                     "position": {
-                        "startLine": 20,
+                        "startLine": 21,
                         "startColumn": 4,
-                        "startOffset": 3159,
-                        "endColumn": 277,
-                        "endOffset": 3432
+                        "startOffset": 3052,
+                        "endColumn": 95,
+                        "endOffset": 3143
                     }
                 }
             },
@@ -980,246 +367,18 @@
                 "to": {
                     "startLine": 21,
                     "startColumn": 4,
-                    "startOffset": 3437,
-                    "endColumn": 126,
-                    "endOffset": 3559
+                    "startOffset": 3187,
+                    "endColumn": 118,
+                    "endOffset": 3301
                 },
                 "from": {
-                    "file": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\google-play-services_lib\\unspecified\\res\\values-lt\\values-lt.xml",
-                    "position": {
-                        "startLine": 21,
-                        "startColumn": 4,
-                        "startOffset": 3437,
-                        "endColumn": 126,
-                        "endOffset": 3559
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 22,
-                    "startColumn": 4,
-                    "startOffset": 3564,
-                    "endColumn": 110,
-                    "endOffset": 3670
-                },
-                "from": {
-                    "file": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\google-play-services_lib\\unspecified\\res\\values-lt\\values-lt.xml",
+                    "file": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.0\\res\\values-lt\\values.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,
-                        "startOffset": 3564,
-                        "endColumn": 110,
-                        "endOffset": 3670
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 23,
-                    "startColumn": 4,
-                    "startOffset": 3675,
-                    "endColumn": 195,
-                    "endOffset": 3866
-                },
-                "from": {
-                    "file": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\google-play-services_lib\\unspecified\\res\\values-lt\\values-lt.xml",
-                    "position": {
-                        "startLine": 23,
-                        "startColumn": 4,
-                        "startOffset": 3675,
-                        "endColumn": 195,
-                        "endOffset": 3866
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 24,
-                    "startColumn": 4,
-                    "startOffset": 3871,
-                    "endColumn": 135,
-                    "endOffset": 4002
-                },
-                "from": {
-                    "file": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\google-play-services_lib\\unspecified\\res\\values-lt\\values-lt.xml",
-                    "position": {
-                        "startLine": 24,
-                        "startColumn": 4,
-                        "startOffset": 3871,
-                        "endColumn": 135,
-                        "endOffset": 4002
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 25,
-                    "startColumn": 4,
-                    "startOffset": 4007,
-                    "endColumn": 211,
-                    "endOffset": 4214
-                },
-                "from": {
-                    "file": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\google-play-services_lib\\unspecified\\res\\values-lt\\values-lt.xml",
-                    "position": {
-                        "startLine": 25,
-                        "startColumn": 4,
-                        "startOffset": 4007,
-                        "endColumn": 211,
-                        "endOffset": 4214
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 26,
-                    "startColumn": 4,
-                    "startOffset": 4219,
-                    "endColumn": 137,
-                    "endOffset": 4352
-                },
-                "from": {
-                    "file": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\google-play-services_lib\\unspecified\\res\\values-lt\\values-lt.xml",
-                    "position": {
-                        "startLine": 26,
-                        "startColumn": 4,
-                        "startOffset": 4219,
-                        "endColumn": 137,
-                        "endOffset": 4352
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 27,
-                    "startColumn": 4,
-                    "startOffset": 4357,
-                    "endColumn": 179,
-                    "endOffset": 4532
-                },
-                "from": {
-                    "file": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\google-play-services_lib\\unspecified\\res\\values-lt\\values-lt.xml",
-                    "position": {
-                        "startLine": 27,
-                        "startColumn": 4,
-                        "startOffset": 4357,
-                        "endColumn": 179,
-                        "endOffset": 4532
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 28,
-                    "startColumn": 4,
-                    "startOffset": 4537,
-                    "endColumn": 96,
-                    "endOffset": 4629
-                },
-                "from": {
-                    "file": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\google-play-services_lib\\unspecified\\res\\values-lt\\values-lt.xml",
-                    "position": {
-                        "startLine": 28,
-                        "startColumn": 4,
-                        "startOffset": 4537,
-                        "endColumn": 96,
-                        "endOffset": 4629
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 29,
-                    "startColumn": 4,
-                    "startOffset": 4634,
-                    "endColumn": 95,
-                    "endOffset": 4725
-                },
-                "from": {
-                    "file": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\google-play-services_lib\\unspecified\\res\\values-lt\\values-lt.xml",
-                    "position": {
-                        "startLine": 29,
-                        "startColumn": 4,
-                        "startOffset": 4634,
-                        "endColumn": 95,
-                        "endOffset": 4725
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 30,
-                    "startColumn": 4,
-                    "startOffset": 4730,
-                    "endColumn": 119,
-                    "endOffset": 4845
-                },
-                "from": {
-                    "file": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\google-play-services_lib\\unspecified\\res\\values-lt\\values-lt.xml",
-                    "position": {
-                        "startLine": 30,
-                        "startColumn": 4,
-                        "startOffset": 4730,
-                        "endColumn": 119,
-                        "endOffset": 4845
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 31,
-                    "startColumn": 4,
-                    "startOffset": 4850,
-                    "endColumn": 106,
-                    "endOffset": 4952
-                },
-                "from": {
-                    "file": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\google-play-services_lib\\unspecified\\res\\values-lt\\values-lt.xml",
-                    "position": {
-                        "startLine": 31,
-                        "startColumn": 4,
-                        "startOffset": 4850,
-                        "endColumn": 106,
-                        "endOffset": 4952
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 32,
-                    "startColumn": 4,
-                    "startOffset": 4957,
-                    "endColumn": 96,
-                    "endOffset": 5049
-                },
-                "from": {
-                    "file": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\google-play-services_lib\\unspecified\\res\\values-lt\\values-lt.xml",
-                    "position": {
-                        "startLine": 32,
-                        "startColumn": 4,
-                        "startOffset": 4957,
-                        "endColumn": 96,
-                        "endOffset": 5049
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 33,
-                    "startColumn": 4,
-                    "startOffset": 5054,
-                    "endColumn": 114,
-                    "endOffset": 5164
-                },
-                "from": {
-                    "file": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\google-play-services_lib\\unspecified\\res\\values-lt\\values-lt.xml",
-                    "position": {
-                        "startLine": 33,
-                        "startColumn": 4,
-                        "startOffset": 5054,
-                        "endColumn": 114,
-                        "endOffset": 5164
+                        "startOffset": 3148,
+                        "endColumn": 118,
+                        "endOffset": 3262
                     }
                 }
             }
