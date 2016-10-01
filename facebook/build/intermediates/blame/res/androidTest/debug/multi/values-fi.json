@@ -1,5 +1,29 @@
 [
     {
+        "outputFile": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\facebook\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-fi\\values-fi.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 61,
+                    "endOffset": 112
+                },
+                "from": {
+                    "file": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\facebook\\build\\intermediates\\bundles\\debug\\res\\values-fi\\values-fi.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 61,
+                        "endOffset": 112
+                    }
+                }
+            }
+        ]
+    },
+    {
         "outputFile": "C:\\Users\\user\\Documents\\LeoSdkDemo\\facebook\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-fi\\values-fi.xml",
         "map": [
             {

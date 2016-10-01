@@ -407,6 +407,11 @@ public class MainActivity extends Activity {
 
     }
 
+    public void gpgLogout(View view){
+        Log.i("main act", "GPG start...");
+        gpgService.onSignOutButtonClicked();
+    }
+
 
     private void makePostRequest(List<NameValuePair> params) {
 

@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\res\\merged\\debug\\raw\\gtm_analytics",
+        "source": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\google-play-services_lib\\unspecified\\res\\raw\\gtm_analytics"
+    },
+    {
         "merged": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\res\\merged\\debug\\raw\\gtm_analytics",
         "source": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\google-play-services_lib\\unspecified\\res\\raw\\gtm_analytics"
     }
