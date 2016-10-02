@@ -11,7 +11,9 @@
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:orientation="vertical" >
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
 
         <TextView
             android:id="@+id/tv1"
@@ -80,26 +82,63 @@
                 android:text="GPG Logout"/>
         </LinearLayout>
 
-        <Button
-            android:id="@+id/b3"
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Faceboook Invite"
-            android:onClick="callFacebookInvite"/>
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/b3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fb Invite"
+                android:onClick="callFacebookInvite"/>
 
-        <Button
-            android:id="@+id/b4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Faceboook share"
-            android:onClick="callFacebookShare"/>
+            <Button
+                android:id="@+id/b4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fb share"
+                android:onClick="callFacebookShare"/>
 
-        <Button
-            android:id="@+id/b5"
+            <Button
+                android:id="@+id/b5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fb Game Invite"
+                android:onClick="callFacebookGameInvite"/>
+        </LinearLayout>
+
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Faceboook Game Invite"
-            android:onClick="callFacebookGameInvite"/>
+            android:orientation="horizontal">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="GPG Achievements"
+                android:onClick="showAchievements" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="GPG Leaderboards "
+                android:onClick="showLeaderboards" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="unlock Achievements"
+                android:onClick="unlockAchievements" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="unlock Leaderboards"
+                android:onClick="unlockLeaderboards" />
+        </LinearLayout>
 
         <com.facebook.share.widget.LikeView
             android:id="@+id/likeView"

@@ -404,14 +404,52 @@ public class MainActivity extends Activity {
              */
         gpgService = new GPGService(this);
         gpgService.Create();
-
     }
 
     public void gpgLogout(View view){
-        Log.i("main act", "GPG start...");
+        Log.i("main act", "gpgLogout...");
         gpgService.onSignOutButtonClicked();
     }
 
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        Log.i("main act", "GPG stop...");
+        if (gpgService != null){
+            gpgService.disconnect();
+        }
+
+    }
+
+    public void showLeaderboards(View view){
+        if(gpgService != null){
+            gpgService.onShowLeaderboardsRequested();
+        }
+
+    }
+
+    public void showAchievements(View view){
+
+        if(gpgService != null){
+            gpgService.onShowAchievementsRequested();
+        }
+
+
+    }
+
+    public void unlockLeaderboards(View view){
+        if(gpgService != null){
+            gpgService.unlockLeaderboardsSubmitScore("CgkI6vSku6EeEAIQBw", 1339);
+        }
+
+    }
+
+    public void unlockAchievements(View view){
+        if(gpgService != null){
+            gpgService.unlockAchievements("CgkI6vSku6EeEAIQAg");
+        }
+    }
 
     private void makePostRequest(List<NameValuePair> params) {
 

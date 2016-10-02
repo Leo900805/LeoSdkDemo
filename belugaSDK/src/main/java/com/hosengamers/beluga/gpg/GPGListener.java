@@ -13,4 +13,7 @@ public interface GPGListener {
     public void onSignInButtonClicked();
     public void onSignOutButtonClicked();
     public void onResult(int requestCode, int responseCode, Intent intent);
+    public void disconnect();
+    public void unlockAchievements(String achievement_id);
+    public void unlockLeaderboardsSubmitScore(String leaderboard_id, long l);
 }
