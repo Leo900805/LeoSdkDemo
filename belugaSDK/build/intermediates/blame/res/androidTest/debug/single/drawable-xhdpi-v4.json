@@ -12,12 +12,12 @@
         "source": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\google-play-services_lib\\unspecified\\res\\drawable-xhdpi-v4\\places_ic_search.png"
     },
     {
-        "merged": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\cast_ic_notification_on.png",
-        "source": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\google-play-services_lib\\unspecified\\res\\drawable-xhdpi-v4\\cast_ic_notification_on.png"
-    },
-    {
         "merged": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\com_facebook_tooltip_black_topnub.png",
         "source": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\facebook\\unspecified\\res\\drawable-xhdpi-v4\\com_facebook_tooltip_black_topnub.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\cast_ic_notification_on.png",
+        "source": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\google-play-services_lib\\unspecified\\res\\drawable-xhdpi-v4\\cast_ic_notification_on.png"
     },
     {
         "merged": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\com_facebook_button_icon.png",
@@ -48,36 +48,36 @@
         "source": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\google-play-services_lib\\unspecified\\res\\drawable-xhdpi-v4\\common_google_signin_btn_text_light_pressed.9.png"
     },
     {
-        "merged": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\common_google_signin_btn_text_light_focused.9.png",
-        "source": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\google-play-services_lib\\unspecified\\res\\drawable-xhdpi-v4\\common_google_signin_btn_text_light_focused.9.png"
+        "merged": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\common_plus_signin_btn_icon_light_focused.9.png",
+        "source": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\google-play-services_lib\\unspecified\\res\\drawable-xhdpi-v4\\common_plus_signin_btn_icon_light_focused.9.png"
     },
     {
         "merged": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\common_google_signin_btn_text_dark_normal.9.png",
         "source": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\google-play-services_lib\\unspecified\\res\\drawable-xhdpi-v4\\common_google_signin_btn_text_dark_normal.9.png"
     },
     {
-        "merged": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\common_plus_signin_btn_icon_light_focused.9.png",
-        "source": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\google-play-services_lib\\unspecified\\res\\drawable-xhdpi-v4\\common_plus_signin_btn_icon_light_focused.9.png"
+        "merged": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\common_google_signin_btn_text_light_focused.9.png",
+        "source": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\google-play-services_lib\\unspecified\\res\\drawable-xhdpi-v4\\common_google_signin_btn_text_light_focused.9.png"
     },
     {
-        "merged": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\common_google_signin_btn_icon_light_focused.9.png",
-        "source": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\google-play-services_lib\\unspecified\\res\\drawable-xhdpi-v4\\common_google_signin_btn_icon_light_focused.9.png"
-    },
-    {
-        "merged": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\com_facebook_tooltip_blue_bottomnub.png",
-        "source": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\facebook\\unspecified\\res\\drawable-xhdpi-v4\\com_facebook_tooltip_blue_bottomnub.png"
-    },
-    {
-        "merged": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\common_plus_signin_btn_text_light_focused.9.png",
-        "source": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\google-play-services_lib\\unspecified\\res\\drawable-xhdpi-v4\\common_plus_signin_btn_text_light_focused.9.png"
+        "merged": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\common_plus_signin_btn_text_light_pressed.9.png",
+        "source": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\google-play-services_lib\\unspecified\\res\\drawable-xhdpi-v4\\common_plus_signin_btn_text_light_pressed.9.png"
     },
     {
         "merged": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\ic_plusone_tall_off_client.png",
         "source": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\google-play-services_lib\\unspecified\\res\\drawable-xhdpi-v4\\ic_plusone_tall_off_client.png"
     },
     {
-        "merged": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\common_plus_signin_btn_text_light_pressed.9.png",
-        "source": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\google-play-services_lib\\unspecified\\res\\drawable-xhdpi-v4\\common_plus_signin_btn_text_light_pressed.9.png"
+        "merged": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\common_plus_signin_btn_text_light_focused.9.png",
+        "source": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\google-play-services_lib\\unspecified\\res\\drawable-xhdpi-v4\\common_plus_signin_btn_text_light_focused.9.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\com_facebook_tooltip_blue_bottomnub.png",
+        "source": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\facebook\\unspecified\\res\\drawable-xhdpi-v4\\com_facebook_tooltip_blue_bottomnub.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\common_google_signin_btn_icon_light_focused.9.png",
+        "source": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\google-play-services_lib\\unspecified\\res\\drawable-xhdpi-v4\\common_google_signin_btn_icon_light_focused.9.png"
     },
     {
         "merged": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\messenger_button_send_round_shadow.png",
@@ -136,16 +136,16 @@
         "source": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\common_plus_signin_btn_text_dark_disabled.9.png",
-        "source": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\google-play-services_lib\\unspecified\\res\\drawable-xhdpi-v4\\common_plus_signin_btn_text_dark_disabled.9.png"
+        "merged": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\places_ic_clear.png",
+        "source": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\google-play-services_lib\\unspecified\\res\\drawable-xhdpi-v4\\places_ic_clear.png"
     },
     {
         "merged": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\common_full_open_on_phone.png",
         "source": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\google-play-services_lib\\unspecified\\res\\drawable-xhdpi-v4\\common_full_open_on_phone.png"
     },
     {
-        "merged": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\places_ic_clear.png",
-        "source": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\google-play-services_lib\\unspecified\\res\\drawable-xhdpi-v4\\places_ic_clear.png"
+        "merged": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\common_plus_signin_btn_text_dark_disabled.9.png",
+        "source": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\google-play-services_lib\\unspecified\\res\\drawable-xhdpi-v4\\common_plus_signin_btn_text_dark_disabled.9.png"
     },
     {
         "merged": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\powered_by_google_dark.png",

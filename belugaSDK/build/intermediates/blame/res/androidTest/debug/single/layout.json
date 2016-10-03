@@ -28,12 +28,12 @@
         "source": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\facebook\\unspecified\\res\\layout\\com_facebook_activity_layout.xml"
     },
     {
-        "merged": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\sign_up_large_size.xml",
-        "source": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\bundles\\debug\\res\\layout\\sign_up_large_size.xml"
-    },
-    {
         "merged": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\payment_layout.xml",
         "source": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\bundles\\debug\\res\\layout\\payment_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\sign_up_large_size.xml",
+        "source": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\bundles\\debug\\res\\layout\\sign_up_large_size.xml"
     },
     {
         "merged": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\modify_pwd_page_large_size.xml",
@@ -68,12 +68,12 @@
         "source": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\bundles\\debug\\res\\layout\\service_bar_layout.xml"
     },
     {
-        "merged": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\modify_pwd_page_v2.xml",
-        "source": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\bundles\\debug\\res\\layout\\modify_pwd_page_v2.xml"
-    },
-    {
         "merged": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\messenger_button_send_white_small.xml",
         "source": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\facebook\\unspecified\\res\\layout\\messenger_button_send_white_small.xml"
+    },
+    {
+        "merged": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\modify_pwd_page_v2.xml",
+        "source": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\bundles\\debug\\res\\layout\\modify_pwd_page_v2.xml"
     },
     {
         "merged": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\messenger_button_send_white_round.xml",

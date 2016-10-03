@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.util.Log;
 
 import com.hosengamers.beluga.belugakeys.Keys;
+import com.hosengamers.beluga.gpg.GPGService;
 import com.hosengamers.beluga.loginpage.AuthClientActivity;
 import com.hosengamers.beluga.payment.iab.InAppBillingActivity;
 import com.hosengamers.beluga.payment.mol.MOLActivity;
@@ -22,6 +23,7 @@ public class port extends UnityPlayerActivity
 
     private static String unityGameObjName;
     private static String unityMethod;
+    GPGService gpgService;
 
     public void onCreate(Bundle savedInstanceState)
     {
@@ -84,8 +86,11 @@ public class port extends UnityPlayerActivity
             {
                 ex.printStackTrace();
             }
-        }
+        }else if(requestCode == 9001){
 
+            gpgService.onResult(requestCode, resultCode, data);
+            Log.d("Activity", "Success.");
+        }
         Log.i("Main Demo", "onActivityResult end...");
     }
 
@@ -239,5 +244,16 @@ public class port extends UnityPlayerActivity
         intent.putExtra(Keys.ShareContentTitle.toString(), shareContentTitle);
         UnityPlayer.currentActivity.startActivityForResult(intent, 100);
 
+    }
+    public void gpg(){
+        Log.i("main act", "GPG start...");
+
+        gpgService = new GPGService(this);
+        gpgService.Create();
+    }
+
+    public void gpgLogout(){
+        Log.i("main act", "gpgLogout...");
+        gpgService.onSignOutButtonClicked();
     }
 }
