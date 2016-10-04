@@ -535,7 +535,7 @@ public class AuthHttpClient {
     }
 
     //Facebook login and Register
-    protected void Auth_FacebookLoignRegister(String fbID){
+    protected void Auth_FacebookLoignRegister(String fbID, String faceboookName, String faceboookEmail, String faceboookPhotoUrl, String facebokAccessToken){
         
     	Long tsLong = System.currentTimeMillis()/1000;
     	String ts = tsLong.toString();
@@ -549,6 +549,10 @@ public class AuthHttpClient {
         params.add(new BasicNameValuePair("apikey", ApiKey));
         params.add(new BasicNameValuePair("ts", ts));
         params.add(new BasicNameValuePair("sign", sign));
+        params.add(new BasicNameValuePair("fbname", faceboookName));
+        params.add(new BasicNameValuePair("fb  mail", faceboookEmail));
+        params.add(new BasicNameValuePair("photourl", faceboookPhotoUrl));
+        params.add(new BasicNameValuePair("token", facebokAccessToken));
         Runnable runnable = new Runnable() {
             @Override
             public void run() {

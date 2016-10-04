@@ -63,6 +63,7 @@ import bolts.AppLinks;
 public class MainActivity extends Activity {
 
     String appid = "MEMBER";
+    //String appid = "kilmasa";
     String apikey = "a0c5560931b60786a9190a29c03a38bc";
     Intent serviceIntent;
     public final static int REQUEST_CODE = -1010101; /*(see edit II)*/
@@ -248,6 +249,7 @@ public class MainActivity extends Activity {
     private void StartAuthClient() {
 
         String appid = "MEMBER";
+        //String appid = "kilmasa";
         String apikey = "a0c5560931b60786a9190a29c03a38bc";
         String packageID = this.getClass().getPackage().getName();
         Intent intent;

@@ -28,13 +28,19 @@ public class FacebookInfoManager {
 	final String PRETTY = "0";
 	String  after_page = "";
 
+	private String FaceboookId;
+	private String FaceboookEmail;
+	private String FaceboookName;
+	private String FaceboookAccessToken;
+	private String FaceboookPhotoUrl;
+
+
 	Bundle param = new Bundle();
 	GraphRequest.Callback graphCallback;
 	private CallbackManager callbackManager;
 	private AccessToken accessToken;
 	private AuthHttpClient authhttpclient;
 	private Activity act;
-	private String FaceboookId;
 	JSONArray jsonArrayFriendsList;
 	JSONObject json_obj, jsonObjectDataList;
 	GraphRequest nextRequest;
@@ -59,8 +65,8 @@ public class FacebookInfoManager {
             public void onSuccess(LoginResult loginResult) {
                 //accessToken之後或許還會用到 先存起來
                 accessToken = loginResult.getAccessToken();
-                Log.d("FB","access token got.");
-                
+				FaceboookAccessToken = accessToken.getToken();
+				Log.d("FB","access token got:"+FaceboookAccessToken);
                 //send request and call graph api
                 GraphRequest request = GraphRequest.newMeRequest(accessToken, 
                         new GraphRequest.GraphJSONObjectCallback() {
@@ -74,13 +80,32 @@ public class FacebookInfoManager {
  	                            setFacebokId( object.optString("id") );
  	                            
  	                            Log.d("FB", getFacebokId() );
+								FaceboookEmail = object.optString("email");
+								Log.d("FB", "email:"+ FaceboookEmail);
+								FaceboookName = object.optString("name");
+								Log.d("FB", "name:"+ FaceboookName);
+
+								JSONObject data = response.getJSONObject();
+								if (data.has("picture")) {
+									FaceboookPhotoUrl = null;
+									try {
+										FaceboookPhotoUrl = data.getJSONObject("picture").getJSONObject("data").getString("url");
+									} catch (JSONException e) {
+										e.printStackTrace();
+									}
+									//Bitmap profilePic = BitmapFactory.decodeStream(profilePicUrl.openConnection().getInputStream());
+									Log.d("FB", "profilePicUrl:"+ FaceboookPhotoUrl);
+									// set profilePic bitmap to imageview
+								}
+
  	                            InformationProcess.saveThirdPartyInfo( getFacebokId() , act);
- 	                            authhttpclient.Auth_FacebookLoignRegister( getFacebokId() );        
+								//authhttpclient.Auth_FacebookLoignRegister( getFacebokId()  );
+ 	                            authhttpclient.Auth_FacebookLoignRegister( getFacebokId(), FaceboookName , FaceboookEmail , FaceboookPhotoUrl , FaceboookAccessToken );
  							}
                    });
                 //包入你想要得到的資料 送出request
                 Bundle parameters = new Bundle();
-                parameters.putString("fields", "id");
+                parameters.putString("fields", "id , email , name , picture.type(large)");
                 request.setParameters(parameters);
                 request.executeAsync();
             }
@@ -178,8 +203,8 @@ public class FacebookInfoManager {
 				//send first request, the rest should be called by the callback
 				while (hasNextPage){
 					Log.i("access", ""+AccessToken.getCurrentAccessToken());
-					AccessToken accesstoken = AccessToken.getCurrentAccessToken();
-					Log.d("token:",accesstoken.getToken());
+					//AccessToken accesstoken = AccessToken.getCurrentAccessToken();
+					//Log.d("token:",accesstoken.getToken());
 					new GraphRequest(AccessToken.getCurrentAccessToken(),
 							"/me/friends",param, HttpMethod.GET, graphCallback).executeAndWait();
 				}

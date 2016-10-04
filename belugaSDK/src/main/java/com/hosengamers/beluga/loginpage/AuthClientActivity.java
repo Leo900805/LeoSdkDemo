@@ -268,7 +268,7 @@ public class AuthClientActivity extends Activity implements OnClickListener,
             
         //Facebook login button
         this.fbLoginButton = (LoginButton)this.findViewById(R.id.fblogin_button);
-        this.fbLoginButton.setReadPermissions("user_friends");
+        this.fbLoginButton.setReadPermissions("user_friends","email","public_profile");
         this.fbLoginButton.setOnClickListener(this);
         
             
@@ -811,11 +811,13 @@ public class AuthClientActivity extends Activity implements OnClickListener,
             GoogleSignInAccount acct = result.getSignInAccount();
             this.gId = acct.getId();
             this.gmail = acct.getEmail();
+            this.gname = acct.getDisplayName();
+            this.gPhotoUrl = acct.getPhotoUrl().toString();
             
             Log.i(TAG, "gid:"+ this.gId + " gmail:"+ this.gmail);
             InformationProcess.saveGoogleThirdPartyInfo(acct.getId(), AuthClientActivity.this);
             authhttpclient.Auth_GoogleLoignRegister(acct.getId(), acct.getEmail(),
-            		null, null);
+            		this.gname, this.gPhotoUrl);
             //this.googleLoginStatus = true;
         } else {
         	Log.d(TAG, "handleSignInResult: in else condition." );
