@@ -1,5 +1,6 @@
 package beluga.com.unityandroidport;
 
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
@@ -23,7 +24,7 @@ public class port extends UnityPlayerActivity
 
     private static String unityGameObjName;
     private static String unityMethod;
-    GPGService gpgService;
+    static GPGService gpgService;
 
     public void onCreate(Bundle savedInstanceState)
     {
@@ -245,15 +246,54 @@ public class port extends UnityPlayerActivity
         UnityPlayer.currentActivity.startActivityForResult(intent, 100);
 
     }
-    public void gpg(){
+    public static void gpg(UnityPlayerActivity unityPlayerActivity){
         Log.i("main act", "GPG start...");
-
-        gpgService = new GPGService(this);
+        gpgService = new GPGService(unityPlayerActivity);
         gpgService.Create();
     }
 
-    public void gpgLogout(){
+    public static void gpgLogout(){
         Log.i("main act", "gpgLogout...");
-        gpgService.onSignOutButtonClicked();
+        if (gpgService != null){
+            gpgService.onSignOutButtonClicked();
+        }else{
+            Log.i("main act", "null object....");
+        }
+    }
+
+    public static void showLeaderboards(){
+        if(gpgService != null){
+            gpgService.onShowLeaderboardsRequested();
+        }else{
+            Log.i("main act", "null object....");
+        }
+
+    }
+
+    public static void showAchievements(){
+        if(gpgService != null){
+            gpgService.onShowAchievementsRequested();
+        }else{
+            Log.i("main act", "null object....");
+        }
+
+
+    }
+
+    public static void unlockLeaderboards(String leaderboards_id, long score){
+        if(gpgService != null){
+            gpgService.unlockLeaderboardsSubmitScore(leaderboards_id, score);
+        }else{
+            Log.i("main act", "null object....");
+        }
+
+    }
+
+    public static void unlockAchievements(String achievements_id){
+        if(gpgService != null){
+            gpgService.unlockAchievements(achievements_id);
+        }else{
+            Log.i("main act", "null object....");
+        }
     }
 }
