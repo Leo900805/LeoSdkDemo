@@ -29,7 +29,15 @@ public class port extends UnityPlayerActivity
     public void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
-
+        Log.i("Main Demo", "create...");
+        gpgService = new GPGService(UnityPlayer.currentActivity);
+        if (gpgService != null){
+            Log.d("Activity", "gpgService is new success");
+        }else{
+            Log.d("Activity", "gpgService is:" + gpgService);
+        }
+        Log.i("Main Demo", "create...end");
+        Log.i("Main Demo", "create...end");
     }
 
     protected void onActivityResult(int requestCode, int resultCode, Intent data)
@@ -88,8 +96,11 @@ public class port extends UnityPlayerActivity
                 ex.printStackTrace();
             }
         }else if(requestCode == 9001){
-
-            gpgService.onResult(requestCode, resultCode, data);
+            if (gpgService != null){
+                gpgService.onResult(requestCode, resultCode, data);
+            }else{
+                Log.d("Activity", "gpgService is:" + gpgService);
+            }
             Log.d("Activity", "Success.");
         }
         Log.i("Main Demo", "onActivityResult end...");
@@ -248,8 +259,17 @@ public class port extends UnityPlayerActivity
     }
     public static void gpg(UnityPlayerActivity unityPlayerActivity){
         Log.i("main act", "GPG start...");
-        gpgService = new GPGService(unityPlayerActivity);
+
         gpgService.Create();
+    }
+
+    public static void gpgLogin(){
+        Log.i("main act", "gpgLogin...");
+        if (gpgService != null){
+            gpgService.onSignInButtonClicked();
+        }else{
+            Log.i("main act", "null object....");
+        }
     }
 
     public static void gpgLogout(){
@@ -276,8 +296,6 @@ public class port extends UnityPlayerActivity
         }else{
             Log.i("main act", "null object....");
         }
-
-
     }
 
     public static void unlockLeaderboards(String leaderboards_id, long score){
@@ -286,7 +304,6 @@ public class port extends UnityPlayerActivity
         }else{
             Log.i("main act", "null object....");
         }
-
     }
 
     public static void unlockAchievements(String achievements_id){

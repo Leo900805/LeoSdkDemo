@@ -15,12 +15,14 @@ import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.games.Games;
 import com.google.android.gms.games.Player;
 
+
 /**
  * Created by user on 2016/9/29.
  */
 
 public class GPGService implements GoogleApiClient.ConnectionCallbacks,
         GoogleApiClient.OnConnectionFailedListener, GPGListener{
+
     Activity activity;
 
     // Request code used to invoke sign in user interactions.
@@ -41,25 +43,28 @@ public class GPGService implements GoogleApiClient.ConnectionCallbacks,
     private boolean mAutoStartSignInFlow = true;
 
     public GPGService(Activity activity){
+        Log.d(TAG, "new Activity..");
         this.activity = activity;
     }
+
     public void Create(){
         Log.d(TAG, "onCreate...");
         // Create the Google Api Client with access to Plus and Games
-
+        Log.i(TAG, "Create api...");
         GPGService.this.mGoogleApiClient = new GoogleApiClient.Builder(GPGService.this.activity)
                 .addConnectionCallbacks(GPGService.this)
                 .addOnConnectionFailedListener(GPGService.this)
                 .addApi(Games.API).addScope(Games.SCOPE_GAMES)
                 .build();
-
+        Log.i(TAG, "Create api...end");
         GPGService.this.mGoogleApiClient.connect();
+        Log.d(TAG, "onCreate...end");
     }
 
     @Override
     public void onConnected(@Nullable Bundle bundle) {
         Log.d(TAG, "onConnectied...");
-       // Log.d(TAG, "onConnectied...bundle.toString():"+bundle.toString());
+        // Log.d(TAG, "onConnectied...bundle.toString():"+bundle.toString());
         GPGService.this.mGoogleApiClient.connect();
 
         // Set the greeting appropriately on main menu
@@ -98,7 +103,6 @@ public class GPGService implements GoogleApiClient.ConnectionCallbacks,
                 Log.d(TAG, "onConnectionFailed()  in  try" );
                 connectionResult.startResolutionForResult(GPGService.this.activity, RC_SIGN_IN);
                 Log.d(TAG, "connectionResult.getResolution():"+connectionResult.getResolution() );
-                //this.onResult();
             } catch (IntentSender.SendIntentException e) {
                 e.printStackTrace();
                 GPGService.this.mGoogleApiClient.connect();
@@ -167,7 +171,11 @@ public class GPGService implements GoogleApiClient.ConnectionCallbacks,
     @Override
     public void onResult(int requestCode, int responseCode, Intent intent) {
         Log.d(TAG, "requestCode is "+requestCode+ " (requestCode == RC_SIGN_IN) is "+ (requestCode == RC_SIGN_IN) );
-        GPGService.this.mGoogleApiClient.connect();
+        if (GPGService.this.mGoogleApiClient != null){
+            GPGService.this.mGoogleApiClient.connect();
+        }else{
+            Log.d(TAG, "GPGService.this.mGoogleApiClient is null...");
+        }
         Log.d(TAG, "Success...");
     }
 
