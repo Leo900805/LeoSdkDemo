@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-kn\\values-kn.xml",
+        "outputFile": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-kn\\values-kn.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 113
                 },
                 "from": {
-                    "file": "C:\\Users\\user\\Documents\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\facebook\\unspecified\\res\\values-kn\\values-kn.xml",
+                    "file": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\belugaSDK\\build\\intermediates\\exploded-aar\\LeoSdkDemo\\facebook\\unspecified\\res\\values-kn\\values-kn.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,

@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\user\\Documents\\LeoSdkDemo\\facebook\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-es\\values-es.xml",
+        "outputFile": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\facebook\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-es\\values-es.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 150
                 },
                 "from": {
-                    "file": "C:\\Users\\user\\Documents\\LeoSdkDemo\\facebook\\build\\intermediates\\bundles\\debug\\res\\values-es\\values-es.xml",
+                    "file": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\facebook\\build\\intermediates\\bundles\\debug\\res\\values-es\\values-es.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 276
                 },
                 "from": {
-                    "file": "C:\\Users\\user\\Documents\\LeoSdkDemo\\facebook\\build\\intermediates\\bundles\\debug\\res\\values-es\\values-es.xml",
+                    "file": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\facebook\\build\\intermediates\\bundles\\debug\\res\\values-es\\values-es.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -49,7 +49,7 @@
                     "endOffset": 374
                 },
                 "from": {
-                    "file": "C:\\Users\\user\\Documents\\LeoSdkDemo\\facebook\\build\\intermediates\\bundles\\debug\\res\\values-es\\values-es.xml",
+                    "file": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\facebook\\build\\intermediates\\bundles\\debug\\res\\values-es\\values-es.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -68,7 +68,7 @@
                     "endOffset": 432
                 },
                 "from": {
-                    "file": "C:\\Users\\user\\Documents\\LeoSdkDemo\\facebook\\build\\intermediates\\bundles\\debug\\res\\values-es\\values-es.xml",
+                    "file": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\facebook\\build\\intermediates\\bundles\\debug\\res\\values-es\\values-es.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -87,7 +87,7 @@
                     "endOffset": 506
                 },
                 "from": {
-                    "file": "C:\\Users\\user\\Documents\\LeoSdkDemo\\facebook\\build\\intermediates\\bundles\\debug\\res\\values-es\\values-es.xml",
+                    "file": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\facebook\\build\\intermediates\\bundles\\debug\\res\\values-es\\values-es.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -106,7 +106,7 @@
                     "endOffset": 599
                 },
                 "from": {
-                    "file": "C:\\Users\\user\\Documents\\LeoSdkDemo\\facebook\\build\\intermediates\\bundles\\debug\\res\\values-es\\values-es.xml",
+                    "file": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\facebook\\build\\intermediates\\bundles\\debug\\res\\values-es\\values-es.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -125,7 +125,7 @@
                     "endOffset": 679
                 },
                 "from": {
-                    "file": "C:\\Users\\user\\Documents\\LeoSdkDemo\\facebook\\build\\intermediates\\bundles\\debug\\res\\values-es\\values-es.xml",
+                    "file": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\facebook\\build\\intermediates\\bundles\\debug\\res\\values-es\\values-es.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -144,7 +144,7 @@
                     "endOffset": 759
                 },
                 "from": {
-                    "file": "C:\\Users\\user\\Documents\\LeoSdkDemo\\facebook\\build\\intermediates\\bundles\\debug\\res\\values-es\\values-es.xml",
+                    "file": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\facebook\\build\\intermediates\\bundles\\debug\\res\\values-es\\values-es.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -163,7 +163,7 @@
                     "endOffset": 850
                 },
                 "from": {
-                    "file": "C:\\Users\\user\\Documents\\LeoSdkDemo\\facebook\\build\\intermediates\\bundles\\debug\\res\\values-es\\values-es.xml",
+                    "file": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\facebook\\build\\intermediates\\bundles\\debug\\res\\values-es\\values-es.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -182,7 +182,7 @@
                     "endOffset": 955
                 },
                 "from": {
-                    "file": "C:\\Users\\user\\Documents\\LeoSdkDemo\\facebook\\build\\intermediates\\bundles\\debug\\res\\values-es\\values-es.xml",
+                    "file": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\facebook\\build\\intermediates\\bundles\\debug\\res\\values-es\\values-es.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -201,7 +201,7 @@
                     "endOffset": 1017
                 },
                 "from": {
-                    "file": "C:\\Users\\user\\Documents\\LeoSdkDemo\\facebook\\build\\intermediates\\bundles\\debug\\res\\values-es\\values-es.xml",
+                    "file": "C:\\Users\\Leo\\AndroidStudioProjects\\LeoSdkDemo\\facebook\\build\\intermediates\\bundles\\debug\\res\\values-es\\values-es.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,

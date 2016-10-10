@@ -1,6 +1,7 @@
 package leo.leosdkdemo;
 
 import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
@@ -14,15 +15,20 @@ import android.util.Base64;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.facebook.AccessToken;
 import com.facebook.FacebookSdk;
+import com.facebook.login.widget.LoginButton;
 import com.facebook.share.widget.LikeView;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdSize;
 //import com.google.android.gms.appindexing.Action;
 //import com.google.android.gms.appindexing.AppIndex;
+import com.google.android.gms.appindexing.Action;
+import com.google.android.gms.appindexing.AppIndex;
+import com.google.android.gms.appindexing.Thing;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.hosengamers.beluga.ads.Banner;
 import com.hosengamers.beluga.ads.BannerAdListener;
@@ -30,7 +36,9 @@ import com.hosengamers.beluga.belugakeys.Keys;
 import com.hosengamers.beluga.gpg.GPGService;
 import com.hosengamers.beluga.gpg.GpgActivity;
 import com.hosengamers.beluga.invite.FacebookFriendsInviteActivity;
+import com.hosengamers.beluga.invite.FacebookGameInviteActivity;
 import com.hosengamers.beluga.loginpage.AuthClientActivity;
+import com.hosengamers.beluga.loginpage.FacebookActivity;
 import com.hosengamers.beluga.loginpage.FacebookInfoManager;
 import com.hosengamers.beluga.payment.iab.InAppBillingActivity;
 import com.hosengamers.beluga.payment.mol.MOLActivity;
@@ -58,7 +66,6 @@ import java.util.List;
 import bolts.AppLinks;
 
 
-
 @SuppressWarnings("deprecation")
 public class MainActivity extends Activity {
 
@@ -75,6 +82,11 @@ public class MainActivity extends Activity {
      * See https://g.co/AppIndexing/AndroidStudio for more information.
      */
     private GoogleApiClient client;
+    /**
+     * ATTENTION: This was auto-generated to implement the App Indexing API.
+     * See https://g.co/AppIndexing/AndroidStudio for more information.
+     */
+    private GoogleApiClient client2;
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
@@ -94,8 +106,8 @@ public class MainActivity extends Activity {
                     String jsonData = bundle.getString(Keys.JsonData.toString());
                     v.setText("Login info :\nLogin Json Data:" + jsonData);
 
-                    Log.i("fb login ", "status :"+ (AccessToken.getCurrentAccessToken()!=null) );
-                    if (AccessToken.getCurrentAccessToken() != null){
+                    Log.i("fb login ", "status :" + (AccessToken.getCurrentAccessToken() != null));
+                    if (AccessToken.getCurrentAccessToken() != null) {
                         FacebookInfoManager facebookInfoManager = new FacebookInfoManager();
                         facebookInfoManager.loadFriendsList();
                         Log.i("List", facebookInfoManager.getFriendsList());
@@ -130,29 +142,28 @@ public class MainActivity extends Activity {
                     new Thread(runnable).start();
 
 
-
                 } else if (type.equals("PAYMENT")) {
                     Log.i("Main Demo", "Is " + type + "do else if condition...");
                     String order = bundle.getString("order");
                     v.setText("json order: \n" + order + "\n" + "response code: \n" + bundle.getInt("response") + "\n" +
                             "status:\n" + bundle.getString("status") + "\n");
-                }else if(type.equals("SHARE")){
+                } else if (type.equals("SHARE")) {
                     String value = bundle.getString(Keys.JsonData.toString());
-                    v.setText("value: \n" + value );
-                }else if(type.equals("GAME_INVITE")){
+                    v.setText("value: \n" + value);
+                } else if (type.equals("GAME_INVITE")) {
                     String value = bundle.getString(Keys.JsonData.toString());
-                    v.setText("json: \n" + value );
-                }else if (type.equals("APP_INVITE")){
+                    v.setText("json: \n" + value);
+                } else if (type.equals("APP_INVITE")) {
                     String value = bundle.getString(Keys.JsonData.toString());
-                    v.setText("json: \n" + value );
-                }else if(type.equals("GPG")){
+                    v.setText("json: \n" + value);
+                } else if (type.equals("GPG")) {
                     Log.i("Main Demo", "success...");
                 }
             } catch (Exception ex) {
                 ex.printStackTrace();
             }
 
-        }else if(requestCode == 9001){
+        } else if (requestCode == 9001) {
 
             gpgService.onResult(requestCode, resultCode, data);
             Log.d("Activity", "Success.");
@@ -244,6 +255,20 @@ public class MainActivity extends Activity {
         // ATTENTION: This was auto-generated to implement the App Indexing API.
         // See https://g.co/AppIndexing/AndroidStudio for more information.
         //client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
+        // ATTENTION: This was auto-generated to implement the App Indexing API.
+        // See https://g.co/AppIndexing/AndroidStudio for more information.
+        client2 = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
+
+        showFBButton();
+    }
+
+    private void showFBButton(){
+        //Context context = this;
+        LinearLayout ll = (LinearLayout)findViewById(R.id.ll);
+
+        LoginButton fbbutton = new LoginButton(this.getApplicationContext());
+        fbbutton.setLayoutParams(new LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT));
+        ll.addView(fbbutton);
     }
 
     private void StartAuthClient() {
@@ -377,7 +402,7 @@ public class MainActivity extends Activity {
         Log.i("main act", "game invite start...");
         String shareContentTitle = "test";
         String shareContentDescription = "test";
-        Intent intent = new Intent(this, com.hosengamers.beluga.invite.FacebookGameInviteActivity.class);
+        Intent intent = new Intent(this, FacebookGameInviteActivity.class);
         intent.putExtra(Keys.ShareContentDescription.toString(), shareContentDescription);
         intent.putExtra(Keys.ShareContentTitle.toString(), shareContentTitle);
         startActivityForResult(intent, 100);
@@ -398,7 +423,12 @@ public class MainActivity extends Activity {
         startActivityForResult(intent, 100);
     }
 
-    public void gpg(View view){
+    public void callFacebookLogin(View v) {
+        Intent intent = new Intent(this, FacebookActivity.class);
+        startActivity(intent);
+    }
+
+    public void gpg(View view) {
         Log.i("main act", "GPG start...");
         /*
         Intent intent = new Intent(this, GpgActivity.class);
@@ -408,7 +438,7 @@ public class MainActivity extends Activity {
         gpgService.Create();
     }
 
-    public void gpgLogout(View view){
+    public void gpgLogout(View view) {
         Log.i("main act", "gpgLogout...");
         gpgService.onSignOutButtonClicked();
     }
@@ -416,39 +446,44 @@ public class MainActivity extends Activity {
 
     @Override
     protected void onStop() {
-        super.onStop();
+        super.onStop();// ATTENTION: This was auto-generated to implement the App Indexing API.
+// See https://g.co/AppIndexing/AndroidStudio for more information.
+        AppIndex.AppIndexApi.end(client2, getIndexApiAction());
         Log.i("main act", "GPG stop...");
-        if (gpgService != null){
+        if (gpgService != null) {
             gpgService.disconnect();
         }
 
+        // ATTENTION: This was auto-generated to implement the App Indexing API.
+        // See https://g.co/AppIndexing/AndroidStudio for more information.
+        client2.disconnect();
     }
 
-    public void showLeaderboards(View view){
-        if(gpgService != null){
+    public void showLeaderboards(View view) {
+        if (gpgService != null) {
             gpgService.onShowLeaderboardsRequested();
         }
 
     }
 
-    public void showAchievements(View view){
+    public void showAchievements(View view) {
 
-        if(gpgService != null){
+        if (gpgService != null) {
             gpgService.onShowAchievementsRequested();
         }
 
 
     }
 
-    public void unlockLeaderboards(View view){
-        if(gpgService != null){
+    public void unlockLeaderboards(View view) {
+        if (gpgService != null) {
             gpgService.unlockLeaderboardsSubmitScore("CgkI6vSku6EeEAIQBw", 1339);
         }
 
     }
 
-    public void unlockAchievements(View view){
-        if(gpgService != null){
+    public void unlockAchievements(View view) {
+        if (gpgService != null) {
             gpgService.unlockAchievements("CgkI6vSku6EeEAIQAg");
         }
     }
@@ -496,7 +531,7 @@ public class MainActivity extends Activity {
     }
 
     //MD5 encrypt
-    private String MD5(String str) {
+    private static String MD5(String str) {
         MessageDigest md5 = null;
         try {
             md5 = MessageDigest.getInstance("MD5");
@@ -524,4 +559,29 @@ public class MainActivity extends Activity {
         return hexValue.toString();
     }
 
+    /**
+     * ATTENTION: This was auto-generated to implement the App Indexing API.
+     * See https://g.co/AppIndexing/AndroidStudio for more information.
+     */
+    public Action getIndexApiAction() {
+        Thing object = new Thing.Builder()
+                .setName("Main Page") // TODO: Define a title for the content shown.
+                // TODO: Make sure this auto-generated URL is correct.
+                .setUrl(Uri.parse("http://[ENTER-YOUR-URL-HERE]"))
+                .build();
+        return new Action.Builder(Action.TYPE_VIEW)
+                .setObject(object)
+                .setActionStatus(Action.STATUS_TYPE_COMPLETED)
+                .build();
+    }
+
+    @Override
+    public void onStart() {
+        super.onStart();
+
+        // ATTENTION: This was auto-generated to implement the App Indexing API.
+        // See https://g.co/AppIndexing/AndroidStudio for more information.
+        client2.connect();
+        AppIndex.AppIndexApi.start(client2, getIndexApiAction());
+    }
 }
