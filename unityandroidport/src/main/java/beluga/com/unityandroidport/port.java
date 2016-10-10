@@ -313,4 +313,12 @@ public class port extends UnityPlayerActivity
             Log.i("main act", "null object....");
         }
     }
+
+    public static void disconnect(){
+        if(gpgService != null){
+            gpgService.disconnect();
+        }else{
+            Log.i("main act", "null object....");
+        }
+    }
 }
