@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
     <attr name="arc_origin">
-        <!-- Value same as the android:gravity -->
+        
         <flag name="top" value="0x30"/>
         <flag name="bottom" value="0x50"/>
         <flag name="left" value="0x03"/>
@@ -413,14 +413,10 @@
     <string name="store_picture_title">Save image</string>
     <string name="wallet_buy_button_place_holder">Buy with Google</string>
     <style name="AppBaseTheme" parent="android:Theme.Light">
-        <!--
-            Theme customizations available in newer API levels can go in
-            res/values-vXX/styles.xml, while customizations related to
-            backward-compatibility can go here.
-        -->
+        
     </style>
     <style name="AppTheme" parent="AppBaseTheme">
-        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        
     </style>
     <style name="Item" parent="">
         <item name="android:textColor">@color/white</item>

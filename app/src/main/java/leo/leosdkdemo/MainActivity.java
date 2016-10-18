@@ -26,9 +26,7 @@ import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdSize;
 //import com.google.android.gms.appindexing.Action;
 //import com.google.android.gms.appindexing.AppIndex;
-import com.google.android.gms.appindexing.Action;
-import com.google.android.gms.appindexing.AppIndex;
-import com.google.android.gms.appindexing.Thing;
+//import com.google.android.gms.appindexing.Thing;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.hosengamers.beluga.ads.Banner;
 import com.hosengamers.beluga.ads.BannerAdListener;
@@ -86,7 +84,7 @@ public class MainActivity extends Activity {
      * ATTENTION: This was auto-generated to implement the App Indexing API.
      * See https://g.co/AppIndexing/AndroidStudio for more information.
      */
-    private GoogleApiClient client2;
+    //private GoogleApiClient client2;
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
@@ -257,7 +255,7 @@ public class MainActivity extends Activity {
         //client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
         // ATTENTION: This was auto-generated to implement the App Indexing API.
         // See https://g.co/AppIndexing/AndroidStudio for more information.
-        client2 = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
+        //client2 = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
 
         showFBButton();
     }
@@ -448,7 +446,7 @@ public class MainActivity extends Activity {
     protected void onStop() {
         super.onStop();// ATTENTION: This was auto-generated to implement the App Indexing API.
 // See https://g.co/AppIndexing/AndroidStudio for more information.
-        AppIndex.AppIndexApi.end(client2, getIndexApiAction());
+        //AppIndex.AppIndexApi.end(client2, getIndexApiAction());
         Log.i("main act", "GPG stop...");
         if (gpgService != null) {
             gpgService.disconnect();
@@ -456,7 +454,7 @@ public class MainActivity extends Activity {
 
         // ATTENTION: This was auto-generated to implement the App Indexing API.
         // See https://g.co/AppIndexing/AndroidStudio for more information.
-        client2.disconnect();
+        //client2.disconnect();
     }
 
     public void showLeaderboards(View view) {
@@ -563,6 +561,7 @@ public class MainActivity extends Activity {
      * ATTENTION: This was auto-generated to implement the App Indexing API.
      * See https://g.co/AppIndexing/AndroidStudio for more information.
      */
+    /*
     public Action getIndexApiAction() {
         Thing object = new Thing.Builder()
                 .setName("Main Page") // TODO: Define a title for the content shown.
@@ -574,14 +573,14 @@ public class MainActivity extends Activity {
                 .setActionStatus(Action.STATUS_TYPE_COMPLETED)
                 .build();
     }
-
+*/
     @Override
     public void onStart() {
         super.onStart();
 
         // ATTENTION: This was auto-generated to implement the App Indexing API.
         // See https://g.co/AppIndexing/AndroidStudio for more information.
-        client2.connect();
-        AppIndex.AppIndexApi.start(client2, getIndexApiAction());
+        //client2.connect();
+        //AppIndex.AppIndexApi.start(client2, getIndexApiAction());
     }
 }
