@@ -24,7 +24,7 @@ import android.util.Log;
 public class FacebookInfoManager {
 
 	final String LIMIT = "49";
-	final String FIELDS_PARAMS = "id,name";
+	final String FIELDS_PARAMS = "id,name,picture.type(large)";
 	final String PRETTY = "0";
 	String  after_page = "";
 
@@ -162,6 +162,8 @@ public class FacebookInfoManager {
 						jsonObjectDataList = new JSONObject();
 						JSONArray rawName = response.getJSONObject().getJSONArray("data");
 						for (int i = 0; i < rawName.length(); i++) {
+							////here can get length
+							Log.d("length", "rawName.length():"+rawName.length());
 							json_obj = rawName.getJSONObject(i);
 							Log.d("Type", json_obj.toString());
 							jsonArrayFriendsList.put(json_obj);
@@ -212,17 +214,5 @@ public class FacebookInfoManager {
 		};
 		new Thread(runnable).start();
 
-		/*
-		synchronized (FacebookInfoManager.class){
-			try {
-				Log.i("return","wait start...");
-				FacebookInfoManager.class.wait();
-				Log.i("return","wait end...");
-			} catch (InterruptedException e) {
-				e.printStackTrace();
-			}
-		}
-		return jsonObjectDataList.toString();
-		*/
 	}
 }

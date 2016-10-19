@@ -1,7 +1,6 @@
 package leo.leosdkdemo;
 
 import android.app.Activity;
-import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
@@ -24,15 +23,11 @@ import com.facebook.login.widget.LoginButton;
 import com.facebook.share.widget.LikeView;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdSize;
-//import com.google.android.gms.appindexing.Action;
-//import com.google.android.gms.appindexing.AppIndex;
-//import com.google.android.gms.appindexing.Thing;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.hosengamers.beluga.ads.Banner;
 import com.hosengamers.beluga.ads.BannerAdListener;
 import com.hosengamers.beluga.belugakeys.Keys;
 import com.hosengamers.beluga.gpg.GPGService;
-import com.hosengamers.beluga.gpg.GpgActivity;
 import com.hosengamers.beluga.invite.FacebookFriendsInviteActivity;
 import com.hosengamers.beluga.invite.FacebookGameInviteActivity;
 import com.hosengamers.beluga.loginpage.AuthClientActivity;
@@ -65,26 +60,42 @@ import bolts.AppLinks;
 
 
 @SuppressWarnings("deprecation")
-public class MainActivity extends Activity {
+public class MainActivity extends Activity implements BannerAdListener{
+    @Override
+    public void onAdLoaded() {
+
+    }
+
+    @Override
+    public void onAdFailedToLoad(String paramString) {
+
+    }
+
+    @Override
+    public void onAdOpened() {
+
+    }
+
+    @Override
+    public void onAdClosed() {
+
+    }
+
+    @Override
+    public void onAdLeftApplication() {
+
+    }
 
     String appid = "MEMBER";
     //String appid = "kilmasa";
     String apikey = "a0c5560931b60786a9190a29c03a38bc";
     Intent serviceIntent;
     public final static int REQUEST_CODE = -1010101; /*(see edit II)*/
-    Bundle b;
 
     GPGService gpgService;
-    /**
-     * ATTENTION: This was auto-generated to implement the App Indexing API.
-     * See https://g.co/AppIndexing/AndroidStudio for more information.
-     */
+
     private GoogleApiClient client;
-    /**
-     * ATTENTION: This was auto-generated to implement the App Indexing API.
-     * See https://g.co/AppIndexing/AndroidStudio for more information.
-     */
-    //private GoogleApiClient client2;
+
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
@@ -110,8 +121,6 @@ public class MainActivity extends Activity {
                         facebookInfoManager.loadFriendsList();
                         Log.i("List", facebookInfoManager.getFriendsList());
                     }
-
-
 
                     /*
                                          * 测试强验证：
@@ -211,33 +220,7 @@ public class MainActivity extends Activity {
             }
         });
 
-        BannerAdListener adListener = new BannerAdListener() {
-            @Override
-            public void onAdLoaded() {
-
-            }
-
-            @Override
-            public void onAdFailedToLoad(String paramString) {
-
-            }
-
-            @Override
-            public void onAdOpened() {
-
-            }
-
-            @Override
-            public void onAdClosed() {
-
-            }
-
-            @Override
-            public void onAdLeftApplication() {
-
-            }
-        };
-        Banner banner = new Banner(this, adListener);
+        Banner banner = new Banner(this, this);
         AdSize adsize = new AdSize(300, 50);
 
         int positon_bottom = 1;
@@ -250,14 +233,6 @@ public class MainActivity extends Activity {
 
         banner.loadAd(adRequest);
         banner.show();
-        // ATTENTION: This was auto-generated to implement the App Indexing API.
-        // See https://g.co/AppIndexing/AndroidStudio for more information.
-        //client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
-        // ATTENTION: This was auto-generated to implement the App Indexing API.
-        // See https://g.co/AppIndexing/AndroidStudio for more information.
-        //client2 = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
-
-        showFBButton();
     }
 
     private void showFBButton(){
@@ -295,7 +270,7 @@ public class MainActivity extends Activity {
 
     public void startGooglePaymentButtonPress(View v) {
         String SKU_GAS = "gold";
-        String base64 = "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAg7qTllPgQQycszoBnRlOqxigZQ0nXjcN8qJtRskfYHdLrgWzU2qp7XNuUyrlSIqsFRY/t5VIUP0Q+VTs21zAFcJUyFicDb2s8gQcBnruO5rq20ivaZqv+YdOhHT0+8ZgTKzJ/jnD8xh/QkjBFMKlX3N8trW65Cqum6IoffTR9RlAtQpqkc0NQ4cRmV3wua0Ornr4KGd8ENqyI+KmQ0fnnpMWSCzv+Vscg6erRtRN+912W+8RU9Meo3MK/+NVPl6xxH6+8uUYSAqq9oXE8v/GHaYcjs61rCu3w3uTTdj65a4oAfBZgp73LD4EBs/vkRMfUlZGIxXz7lrh/fYQUKLAEQIDAQAB";
+        String base64 = "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkrVbg9ysO5FOjxKL9DDEQDvbHHSVNHbWQtVeXFze80SiNRMphhmYLaSN9NQ+Xz9riS4i5fxSvfJUojqMd9/z9nxFhn7e2m/XrJCijMOpq6bw12guGI+hwM1Xwt/PkzNkpv+Nuv/UHr6LcJx0IBRmWT11A4LNDnwpwCxihAH5xcHLpWk3ucBEUc/oLNN7qK2BJobc4CDCGI5X1g3vBxIW/Vc567YVcuoVudm1MtIsIo2mGOqPjEFjuQhLV0xTo9Q5u0TpELKL1/7D5GaStDJ2BSoJq5BCcdsvNKED7x01AZVUov54bhsY0SJVucUhTp4wDdMTsWym/YAzTzlRinutFwIDAQAB";
         String UserId = "1030176"; //user id
 
         Intent i = new Intent(MainActivity.this, InAppBillingActivity.class);
@@ -445,16 +420,12 @@ public class MainActivity extends Activity {
     @Override
     protected void onStop() {
         super.onStop();// ATTENTION: This was auto-generated to implement the App Indexing API.
-// See https://g.co/AppIndexing/AndroidStudio for more information.
-        //AppIndex.AppIndexApi.end(client2, getIndexApiAction());
+
         Log.i("main act", "GPG stop...");
         if (gpgService != null) {
             gpgService.disconnect();
         }
 
-        // ATTENTION: This was auto-generated to implement the App Indexing API.
-        // See https://g.co/AppIndexing/AndroidStudio for more information.
-        //client2.disconnect();
     }
 
     public void showLeaderboards(View view) {
@@ -557,30 +528,4 @@ public class MainActivity extends Activity {
         return hexValue.toString();
     }
 
-    /**
-     * ATTENTION: This was auto-generated to implement the App Indexing API.
-     * See https://g.co/AppIndexing/AndroidStudio for more information.
-     */
-    /*
-    public Action getIndexApiAction() {
-        Thing object = new Thing.Builder()
-                .setName("Main Page") // TODO: Define a title for the content shown.
-                // TODO: Make sure this auto-generated URL is correct.
-                .setUrl(Uri.parse("http://[ENTER-YOUR-URL-HERE]"))
-                .build();
-        return new Action.Builder(Action.TYPE_VIEW)
-                .setObject(object)
-                .setActionStatus(Action.STATUS_TYPE_COMPLETED)
-                .build();
-    }
-*/
-    @Override
-    public void onStart() {
-        super.onStart();
-
-        // ATTENTION: This was auto-generated to implement the App Indexing API.
-        // See https://g.co/AppIndexing/AndroidStudio for more information.
-        //client2.connect();
-        //AppIndex.AppIndexApi.start(client2, getIndexApiAction());
-    }
 }

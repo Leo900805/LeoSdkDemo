@@ -119,7 +119,7 @@
             android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
         </activity>
         
-          <provider android:authorities="com.facebook.app.FacebookContentProvider1797395940498411"
+          <provider android:authorities="com.facebook.app.FacebookContentProvider1054015187996860"
           android:name="com.facebook.FacebookContentProvider"
           android:exported="true"/>
         
@@ -155,11 +155,7 @@
             android:windowSoftInputMode="stateHidden"
             android:configChanges="orientation"
             android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
-
         </activity>
-
-
-
     </application>
     
     

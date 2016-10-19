@@ -106,7 +106,7 @@ containing a value of this type.
 <colgroup align="left" />
 <colgroup align="left" />
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>top</code></td><td>0x30</td><td> Value same as the android:gravity </td></tr>
+<tr><td><code>top</code></td><td>0x30</td><td></td></tr>
 <tr><td><code>bottom</code></td><td>0x50</td><td></td></tr>
 <tr><td><code>left</code></td><td>0x03</td><td></td></tr>
 <tr><td><code>right</code></td><td>0x05</td><td></td></tr>
@@ -1232,15 +1232,8 @@ containing a value of this type.
     public static final class style {
         /**  API 11 theme customizations can go here. 
  API 14 theme customizations can go here. 
-
-            Theme customizations available in newer API levels can go in
-            res/values-vXX/styles.xml, while customizations related to
-            backward-compatibility can go here.
-        
          */
         public static int AppBaseTheme=0x7f070000;
-        /**  All customizations that are NOT specific to a particular API-level can go here. 
-         */
         public static int AppTheme=0x7f070002;
         public static int Item=0x7f070003;
         public static int Item_FrameLayout=0x7f070004;
@@ -2175,7 +2168,7 @@ containing a value of this type.
 <colgroup align="left" />
 <colgroup align="left" />
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>top</code></td><td>0x30</td><td> Value same as the android:gravity </td></tr>
+<tr><td><code>top</code></td><td>0x30</td><td></td></tr>
 <tr><td><code>bottom</code></td><td>0x50</td><td></td></tr>
 <tr><td><code>left</code></td><td>0x03</td><td></td></tr>
 <tr><td><code>right</code></td><td>0x05</td><td></td></tr>
@@ -2258,7 +2251,7 @@ containing a value of this type.
 <colgroup align="left" />
 <colgroup align="left" />
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>top</code></td><td>0x30</td><td> Value same as the android:gravity </td></tr>
+<tr><td><code>top</code></td><td>0x30</td><td></td></tr>
 <tr><td><code>bottom</code></td><td>0x50</td><td></td></tr>
 <tr><td><code>left</code></td><td>0x03</td><td></td></tr>
 <tr><td><code>right</code></td><td>0x05</td><td></td></tr>
